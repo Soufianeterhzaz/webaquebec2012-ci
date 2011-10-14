@@ -12,6 +12,7 @@
   
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/main.css" />
   
+  <?php if (ENVIRONMENT == 'production'): ?>
   <script>
     /*
       TODO CHANGE GA ACCOUNT ID
@@ -25,6 +26,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
+  <?php endif ?>
   
   <script src="<?php echo base_url(); ?>assets/js/libs/modernizr-html5-shim.js"></script>
   
