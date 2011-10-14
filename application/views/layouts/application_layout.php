@@ -31,7 +31,6 @@
 </head>
 
 <body>
-  <!-- FUCK YOU !!!!! -->
   <div id="page">
     <header>
     
