@@ -3,7 +3,7 @@
   <div class="left-side main">
     <div id="vox-pop" class="white-box">
       <div class="thumb">
-        <a class="btn-vox-pop" href="#">Écoutez<strong>le Vox Pop</strong></a>
+        <a class="btn-vox-pop" href="http://vimeo.com/29752446">Écoutez<strong>le Vox Pop</strong></a>
         <img src="assets/img/vox-pop-preview.jpg" alt="Apercu du Vox Pop">
       </div>
       <div class="content">
@@ -86,7 +86,7 @@ Proin et varius leo.<a href="#">Lire plus</a>
     <div class="left-side rs-content-box">
       <h3 class="box-header">Iron Web</h3>
       <div class="white-thumb">
-        <a href="#">Écoutez<strong>le Vox Pop</strong></a>
+        <a href="http://vimeo.com/29847338">Retour sur le <strong>le Vox Pop</strong></a>
       </div>
       <p>Suspendisse potenti. Morbi ac enim quis nisi varius condimentum in at sapien. Ut vitae tortor nunc, quis feugiat dolor. Proin et varius leo. </p>
     </div>
