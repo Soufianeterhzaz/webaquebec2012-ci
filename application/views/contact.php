@@ -3,7 +3,7 @@
   <div class="left-side main">
     <div id="vox-pop" class="white-box">
       <div class="thumb">
-        <a class="btn-vox-pop" href="#">Écoutez<strong>le Vox Pop</strong></a>
+        <a href="#">Écoutez<strong>le Vox Pop</strong></a>
         <img src="assets/img/vox-pop-preview.jpg" alt="Apercu du Vox Pop">
       </div>
       <div class="content">

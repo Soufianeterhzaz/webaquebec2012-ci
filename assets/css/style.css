@@ -51,7 +51,7 @@ time, mark, audio, video {
   display: table;
 }
 
-.to-caps, nav.top-right ul li, nav.menu-princ ul li a, h3.box-header, #vox-pop .social-bar span, #vox-pop .social-bar a, #numbers-viewport li h2 {
+.to-caps, .btn-vox-pop, nav.top-right ul li, nav.menu-princ ul li a, h3.box-header, #vox-pop .social-bar span, #vox-pop .social-bar a, #numbers-viewport li h2 {
   text-transform: uppercase;
 }
 
@@ -167,6 +167,36 @@ time, mark, audio, video {
   box-shadow: 0 0 3px black;
 }
 
+.btn-vox-pop {
+  display: block;
+  background: rgba(0, 0, 0, 0.6) url(../img/btn-vox-pop.png) no-repeat 10% 50%;
+  position: absolute;
+  padding: 10px 10px 10px 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  font-family: MisoLight;
+  font-size: 130%;
+  line-height: 0.9;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+}
+.btn-vox-pop strong {
+  display: block;
+  font-family: MisoRegular;
+}
+
+.btn-vox-pop:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 .arrow-right {
   position: absolute;
   top: 0;
@@ -199,6 +229,10 @@ h2, h3 {
 
 h4, h5 {
   font-family: MisoRegular;
+}
+
+p {
+  line-height: 1.3;
 }
 
 header {
@@ -327,10 +361,9 @@ h3.box-header {
   position: relative;
   margin-bottom: 10px;
 }
-#vox-pop .thumb a {
-  position: absolute;
-  bottom: 15px;
-  left: 30px;
+#vox-pop .thumb .btn-vox-pop {
+  bottom: 45px;
+  left: 100px;
 }
 #vox-pop .content {
   padding: 10px;
@@ -474,13 +507,15 @@ h3.box-header {
   font-size: 140%;
   text-align: center;
 }
+#numbers-viewport li:hover {
+  cursor: pointer;
+}
 #numbers-viewport li:hover span {
   font-size: 750%;
   text-align: center;
   text-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   height: 127px;
   padding-top: 0;
-  cursor: pointer;
   color: #fff;
 }
 
@@ -530,6 +565,10 @@ footer .google-map {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
+}
+footer #googlemaps-footer {
+  width: 206px;
+  height: 118px;
 }
 footer h2 {
   float: left;

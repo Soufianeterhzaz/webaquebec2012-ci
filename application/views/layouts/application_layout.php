@@ -99,7 +99,10 @@
 
     <footer>
       <div class="wrapper clearfix">
-        <div class="google-map"></div>
+        <div class="google-map">
+          <div id="googlemaps-footer"></div>
+        </div>
+
         <h2 class="t-indent">WAQ</h2>
         <address id="main-address">
           <strong>Adresse de l'événement</strong>
@@ -139,5 +142,28 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script>window.jQuery || document.write("<script src='<?php echo base_url(); ?>assets/js/libs/jquery-1.6.4.min.js'><\/script>")</script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+    function initialize() {
+        var latlng = new google.maps.LatLng(46.81303, -71.22538);
+        var myOptions = {
+          zoom: 15,
+          center: latlng,
+          scrollwheel: false,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          disableDefaultUI: true
+        };
+        var map = new google.maps.Map(document.getElementById("googlemaps-footer"), myOptions);
+
+        var marker = new google.maps.Marker({
+            position: latlng,
+            title:"Web à Québec"
+        });
+
+        marker.setMap(map);
+    }
+
+    $(function(){ initialize(); });
+</script>
 
 </html>
