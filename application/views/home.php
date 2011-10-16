@@ -73,9 +73,9 @@ Proin et varius leo.<a href="#">Lire plus</a>
 
     <div id="newsletter-box">
       <h3>Recevez les dernières nouvelles</h3>
-      <form name="newsletter" id="newsletter" method="post" action="#">
+      <form name="newsletter" id="newsletter" method="post" action="#" class="clearfix">
         <input id="email" type="text" name="email" value="Votre courriel">
-        <button id="btn-submit-nl">Abonnez-vous</button>
+        <a id="btn-submit-nl" class="btn" href="#">M'abboner</a>
       </form>
     </div>
 
@@ -85,16 +85,22 @@ Proin et varius leo.<a href="#">Lire plus</a>
     <div class="left-side rs-content-box">
       <h3 class="box-header">Iron Web</h3>
       <div class="white-thumb">
-        <a href="http://vimeo.com/29847338">Retour sur le <strong>le Vox Pop</strong></a>
+        <a class="btn-vox-pop" href="http://vimeo.com/29847338">Retour sur le <strong>le Vox Pop</strong></a>
       </div>
-      <p>Suspendisse potenti. Morbi ac enim quis nisi varius condimentum in at sapien. Ut vitae tortor nunc, quis feugiat dolor. Proin et varius leo. </p>
+      <p>Le Iron Web est une compétition de 48 heures, diffusé en direct, pour les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie.</p>
+      <div class="btn-more-wrapper">
+        <a href="#">Tout sur les partenaires</a>
+      </div>
     </div>
     <div class="right-side rs-content-box">
       <h3 class="box-header">Commanditaires principaux</h3>
       <div class="white-thumb">
         <a href="#">Écoutez<strong>le Vox Pop</strong></a>
       </div>
-      <p>Suspendisse potenti. Morbi ac enim quis nisi varius condimentum in at sapien. Ut vitae tortor nunc, quis feugiat dolor. Proin et varius leo. </p>
+      <p>Sans la participation de ses nombreux commanditaires, le WAQ ne pourrait offrir un tel niveau de qualité à un coût si peu élevé. Merci à tous nos partenaires.</p>
+      <div class="btn-more-wrapper">
+        <a href="#">Tout sur la compétition</a>
+      </div>
     </div>
   </div>
 

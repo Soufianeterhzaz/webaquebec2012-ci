@@ -145,7 +145,7 @@
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script>
     function initialize() {
-        var latlng = new google.maps.LatLng(46.81303, -71.22538);
+        var latlng = new google.maps.LatLng(46.81714, -71.20547);
         var myOptions = {
           zoom: 15,
           center: latlng,
