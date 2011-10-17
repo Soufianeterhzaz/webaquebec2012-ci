@@ -9,11 +9,11 @@
     <div id="vox-pop" class="white-box">
       <div class="thumb">
         <a class="btn-vox-pop" href="http://vimeo.com/29752446">Écoutez<strong>le Vox Pop</strong></a>
-        <img src="assets/img/vox-pop-preview.jpg" alt="Apercu du Vox Pop">
+        <img src="<?php echo base_url() ?>assets/img/vox-pop-preview.jpg" alt="Apercu du Vox Pop">
       </div>
       <div class="content">
-        <h3>Faire rayonner l’industrie du web à Québec</h3>
-        <p>Pour les gens de Québec comme ailleurs, le web est devenu partie intégrante de nos vies. C’est un outil de travail, une industrie florissante, une mine de renseignements ou un mode de vie.</p>
+        <h3>Le Web made in Québec</h3>
+        <p>Pour les gens de Québec comme ailleurs, le web est devenu partie intégrante de nos vies. C’est un outil de travail, une industrie florissante, une mine de renseignements et un mode de vie.</p>
 
       </div>
       <ul class="social-bar list-custom list-hori clearfix">
@@ -60,25 +60,25 @@
         <li>
           <a href="#">
             <span>Nom Conferencier</span>
-            <img src="assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
+            <img src="<?php echo base_url() ?>assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
           </a>
         </li>
         <li>
           <a href="#">
             <span>Nom Conferencier</span>
-            <img src="assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
+            <img src="<?php echo base_url() ?>assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
           </a>
         </li>
         <li>
           <a href="#">
             <span>Nom Conferencier</span>
-            <img src="assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
+            <img src="<?php echo base_url() ?>assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
           </a>
         </li>
         <li>
           <a href="#">
             <span>Nom Conferencier</span>
-            <img src="assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
+            <img src="<?php echo base_url() ?>assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
           </a>
         </li>
       </ul>
@@ -144,9 +144,9 @@
       <div class="white-thumb">
         <a class="btn-vox-pop" href="http://vimeo.com/29847338">Retour sur le <strong>le Vox Pop</strong></a>
       </div>
-      <p>Le Iron Web est une compétition de 48 heures, diffusé en direct, pour les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie.</p>
+      <p>Le Iron Web est une compétition de 48 heures, diffusée en direct, par et les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie.</p>
       <div class="btn-more-wrapper">
-        <a href="<?php echo base_url() ?>iron-web" title="Tout sur la compétition Iron Web">Tout sur la compétition</a>
+        <a href="<?php echo base_url() ?>iron-web/" title="Tout sur la compétition Iron Web">Tout sur la compétition</a>
       </div>
     </div>
     <div class="right-side rs-content-box">
