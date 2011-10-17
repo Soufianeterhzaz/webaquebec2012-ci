@@ -64,5 +64,14 @@ function initialize() {
   marker.setMap(map);
 }
 
-$(function(){ initialize(); });
+$(function(){
+  initialize();
+
+  $('.white-thumb .logo-partenaires').each(function(){
+    $(this).css({
+      left: ($(this).parent().width() - $(this).outerWidth()) / 2,
+      top: ($(this).parent().height() - $(this).outerHeight()) / 2
+    });
+  });
+});
 
