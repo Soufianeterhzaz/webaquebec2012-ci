@@ -40,6 +40,7 @@
 
 $route['default_controller'] = "home";
 $route['iron-web'] = "iron_web";
+$route['a-propos'] = "a_propos";
 $route['404_override'] = '';
 
 

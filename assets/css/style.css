@@ -166,7 +166,7 @@ time, mark, audio, video {
 }
 
 .white-box + .ls-content-box {
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .ls-content-box + .ls-content-box {
@@ -767,11 +767,24 @@ h3.box-header {
 .rs-content-box p, .rs-content-box ul li {
   font-size: 80%;
 }
-.rs-content-box p + p {
-  margin-top: 15px;
+.rs-content-box ul li {
+  padding-left: 15px;
+  background: url(../img/bullet-arrow-blue.png) no-repeat 3px 5px;
+  margin-bottom: 5px;
+}
+.rs-content-box p + p, .rs-content-box p + ul, .rs-content-box ul + p {
+  margin-top: 20px;
 }
 .rs-content-box p + h3 {
   margin-top: 30px;
+}
+.rs-content-box h4 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.rs-content-box ul + h4, .rs-content-box p + h4 {
+  margin-top: 25px;
 }
 
 .white-thumb {
