@@ -2,11 +2,11 @@
   <div id="iw-header" class="page-content-block clearfix">
     <div id="logo-iw">
       <h2 class="t-indent">Iron Web</h2>
-      <span class="to-cap">Présenté par Kellogs</span>
+      <span class="to-cap"></span>
     </div>
 
-    <a id="btn-candidature" href="#">
-      <span class="call-to-action">Soumettez votre cendidature</span>
+    <a id="btn-candidature" target="_blank" href="https://docs.google.com/a/webaquebec.org/spreadsheet/viewform?hl=en_US&formkey=dHBJWW5MNnFMMDBtSmJWVnBHemV0Tnc6MA#gid=0">
+      <span class="call-to-action">Soumettez votre candidature</span>
       <span class="date-limite">Date limite: 11 novembre</span>
     </a>
 
@@ -31,11 +31,6 @@
           <p>Que pensent les participants du Iron Web 2011 de leur expérience? Écoutez-les! </p>
 
         </div>
-        <ul class="social-bar list-custom list-hori clearfix">
-          <li><span>Suivez-nous</span></li>
-          <li><a class="btn-facebook" href="#" title="Suivez-nous sur Facebook">Facebook</a></li>
-          <li><a class="btn-twitter" href="#" title="Suivex-nous sur Twitter">Twitter</a></li>
-        </ul>
       </div>
 
       <div id="commenditaires-principaux" class="white-box">
@@ -43,41 +38,6 @@
         <div class="white-thumb">
           <a id="logo-libeo" class="logo-partenaires" href="#">Libéo - Web et applications libres</a>
         </div>
-        <div class="content">
-          <p>Le Iron Web est une compétition “Web réalité” de 48 heures qui se tiendra dans le cadre de l’événement WAQ (le Web à Québec).</p>
-        </div>
-      </div>
-
-      <div id="news-box" class="ls-content-box">
-        <h3 class="box-header">Dernières nouvelles</h3>
-        <ul class="list-custom">
-          <li>
-            <h4>Qu’est-ce que le Web à Québec, pour vous?</h4>
-            <p>
-              Les membres du WAQ se prononcent sur Twitter. Participez à la conversation! #WAQ2012<a href="#">Lire plus</a>
-            </p>
-          </li>
-          <li>
-            <h4>Les inscriptions au Iron Web sont ouvertes</h4>
-            <p>
-              Posez votre candidature aujourd’hui pour vivre une expérience inoubliable!<a href="#">Lire plus</a>
-            </p>
-          </li>
-          <li>
-            <h4>Devenez commanditaire du WAQ 2012</h4>
-            <p>
-              Près de 25 opportunités de commandites sont offertes. Une belle occasion de vous associer au Web à Québec. Nous sommes aussi à la recherche de commanditaires de services (nourriture, mobilier, etc.) ainsi que de partenaires médias.<a href="#">Lire plus</a>
-            </p>
-          </li>
-        </ul>
-      </div>
-
-      <div id="newsletter-box">
-        <h3>Recevez les dernières nouvelles</h3>
-        <form name="newsletter" id="newsletter" method="post" action="#" class="clearfix">
-          <input id="email" type="text" name="email" placeholder="Votre courriel">
-          <a id="btn-submit-nl" class="btn" href="#">M’abonner</a>
-        </form>
       </div>
 
     </div>
@@ -94,10 +54,6 @@
       </div>
 
       <div class="full-width rs-content-box">
-        <h3 class="box-header">Une opportunité à saisir !</h3>
-        <p>Au coeur de la Capitale Nationale, bon nombre de professionnels travaillent ardemment pour rendre l’industrie du Web prospère. De nombreuses collaborations ont lieu couramment pour donner naissance à des projets créatifs et ambitieux. La compétition Iron Web se veut un reflet de cette réalité! </p>
-        <p>Le Iron Web est une occasion unique de rassembler toute une variété de professionnels pour mettre en valeur les talents d’ici, mais surtout, donner la chance à une bande de tripeux de donner libre cours à leur créativité ! Ferez-vous partie des équipes de l’édition 2012 ?</p>
-        <p>Designer, intégrateur, programmeur, chargé de projet, rédacteur, infographe, directeur artistique, architecte d’information, spécialiste en accessibilité, ergonome ...</p>
       </div>
 
       <div class="left-side rs-content-box liste-reglements">
@@ -111,13 +67,13 @@
           <li>Vous devez utiliser des solutions libres de droits</li>
         </ul>
         <div class="btn-more-wrapper">
-          <a href="#" title="Tout sur nos fantastiques partenaires">Téléchargez les règlements complets</a>
+          <a href="/assets/reglements-ironweb-2012.pdf" target="_blank" title="Tout sur nos fantastiques partenaires">Téléchargez les règlements complets</a>
         </div>
       </div>
 
       <div class="right-side rs-content-box">
         <h3 class="box-header">Avantages du participant</h3>
-        <p>Que vous soyez un professionnel ou un étudiant, vous aurez l’opportunité de démontrer votre savoir-faire aux yeux de vos pairs de l’industrie. C’est également une occasion extraordinaire de créer des liens avec des professionnels de votre industrie.</p>
+        <p>Que vous soyez un professionnel ou un étudiant, vous aurez l’opportunité de démontrer votre savoir-faire aux yeux de vos pairs. C’est également une occasion de développer des liens avec d'autres professionnels de votre industrie.</p>
         <h3 class="box-header">Avantages de l’employeur</h3>
         <p>Une entreprise qui possède une ressource qui se qualifie pour représenter la crème de Québec, c’est une excellente nouvelle. Une occasion de visibilité pour vous et un défi stimulant pour votre employé.</p>
       </div>
