@@ -51,7 +51,7 @@ time, mark, audio, video {
   display: table;
 }
 
-.to-caps, .btn-vox-pop, nav.top-right ul li, nav.menu-princ ul li a, h3.box-header, .btn-more-wrapper a, #vox-pop .social-bar span, #vox-pop .social-bar a, #newsletter-box h3, #newsletter-box form a.btn, #numbers-viewport li h2 {
+.to-caps, .btn-vox-pop, nav.top-right ul li, nav.menu-princ ul li a, h3.box-header, .btn-more-wrapper a, #btn-candidature .call-to-action, #btn-candidature .date-limite, #vox-pop .social-bar span, #vox-pop .social-bar a, #newsletter-box h3, #newsletter-box form a.btn, #numbers-viewport li h2 {
   text-transform: uppercase;
 }
 
@@ -119,14 +119,23 @@ time, mark, audio, video {
   width: 600px;
 }
 
+.ros-wrapper .right-side.main {
+  width: 580px;
+}
+
 .right-side .left-side, .right-side .right-side {
   width: 290px;
+}
+
+.ros-wrapper .right-side .left-side, .ros-wrapper .right-side .right-side {
+  width: 270px;
 }
 
 .sep-shadow {
   height: 14px;
   width: 960px;
   background: url(../img/sep-shadow.png) no-repeat;
+  margin-bottom: 20px;
 }
 
 .white-box {
@@ -150,6 +159,18 @@ time, mark, audio, video {
 .white-box p {
   color: #4cabcf;
   margin-bottom: 10px;
+}
+
+.white-box + .white-box {
+  margin-top: 15px;
+}
+
+.white-box + .ls-content-box {
+  margin-top: 15px;
+}
+
+.ls-content-box + .ls-content-box {
+  margin-top: 15px;
 }
 
 .btn {
@@ -242,7 +263,7 @@ h4, h5 {
 }
 
 p {
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 #logo-libeo {
@@ -384,6 +405,75 @@ h3.box-header {
   margin-top: 15px;
 }
 
+#iw-header {
+  position: relative;
+}
+
+#logo-iw {
+  position: relative;
+}
+#logo-iw h2 {
+  height: 100px;
+  width: 351px;
+  background: url(../img/logo-ironweb.png) no-repeat;
+}
+#logo-iw span {
+  position: absolute;
+  bottom: 5px;
+  left: 113px;
+  font-family: MisoLight;
+  font-size: 90%;
+}
+
+#btn-candidature {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  display: block;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #4cabcf;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4cabcf), to(#0078a6));
+  background-image: -webkit-linear-gradient(top, #4cabcf, #0078a6);
+  background-image: -moz-linear-gradient(top, #4cabcf, #0078a6);
+  background-image: -ms-linear-gradient(top, #4cabcf, #0078a6);
+  background-image: -o-linear-gradient(top, #4cabcf, #0078a6);
+  background-image: linear-gradient(top, #4cabcf, #0078a6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ff4cabcf', EndColorStr='#ff0078a6');
+  zoom: 1;
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  width: 270px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+#btn-candidature span {
+  display: block;
+}
+#btn-candidature .call-to-action {
+  font-family: MisoLight;
+  font-size: 120%;
+}
+#btn-candidature .date-limite {
+  font-size: 90%;
+  font-family: MisoBold;
+}
+
+#btn-candidature:hover {
+  top: 17px;
+  -moz-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+}
+
 #vox-pop .thumb {
   position: relative;
   margin-bottom: 10px;
@@ -501,7 +591,7 @@ h3.box-header {
 #newsletter-box form input {
   background: none;
   border: none;
-  color: #fff;
+  color: #fff !important;
   padding-top: 3px;
   font-size: 100%;
 }
@@ -671,8 +761,17 @@ h3.box-header {
   opacity: 1;
 }
 
-.rs-content-box p {
-  font-size: 90%;
+.rs-content-box {
+  margin-bottom: 40px;
+}
+.rs-content-box p, .rs-content-box ul li {
+  font-size: 80%;
+}
+.rs-content-box p + p {
+  margin-top: 15px;
+}
+.rs-content-box p + h3 {
+  margin-top: 30px;
 }
 
 .white-thumb {
@@ -701,6 +800,16 @@ h3.box-header {
 }
 .iron-web h3 {
   background: url(../img/sprite.png) no-repeat 105px -59px;
+}
+
+.full-width {
+  clear: both;
+}
+
+.liste-reglements li {
+  background: url(../img/bullet-arrow-blue.png) no-repeat 0 5px;
+  padding-left: 15px;
+  margin-bottom: 10px;
 }
 
 .footer-box {

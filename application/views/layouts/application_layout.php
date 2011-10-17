@@ -54,7 +54,7 @@
           <div class="event-details">
             <span class="lieu">Espace 400e Bell. Québec</span>
             <time class="dates" datetime="2012-02-22">22-25 Février 2012</time>
-            <a class="btn-inscription t-indent" href="<?php echo base_url() ?>inscription/">Inscription
+            <a class="btn-inscription t-indent" href="<?php echo base_url() ?>inscription">Inscription
               <img class="btn-insc-normal" src="assets/img/btn-insc.png" alt="Inscription">
               <img class="btn-insc-hover" src="assets/img/btn-insc-hover.png" alt="Inscription">
             </a>
@@ -62,18 +62,18 @@
 
           <nav class="top-right">
             <ul class="list-custom list-hori">
-              <li><a href="<?php echo base_url() ?>a-propos/">À propos</a></li>
-              <li><a href="<?php echo base_url() ?>medias/">Médias</a></li>
-              <li><a href="<?php echo base_url() ?>partenaires/">Partenaires</a></li>
-              <li><a href="<?php echo base_url() ?>contact/">Contact</a></li>
+              <li><a href="<?php echo base_url() ?>a-propos">À propos</a></li>
+              <li><a href="<?php echo base_url() ?>medias">Médias</a></li>
+              <li><a href="<?php echo base_url() ?>partenaires">Partenaires</a></li>
+              <li><a href="<?php echo base_url() ?>contact">Contact</a></li>
             </ul>
           </nav>
 
           <nav class="menu-princ">
             <ul class="list-custom">
-              <li><a href="<?php echo base_url() ?>programmation/">Horaire et programmation</a></li>
-              <li><a href="<?php echo base_url() ?>iron-web/">Compétition Iron Web</a></li>
-              <li><a href="<?php echo base_url() ?>informations-pratiques/">Information pratique</a></li>
+              <li><a href="<?php echo base_url() ?>programmation">Horaire et programmation</a></li>
+              <li><a href="<?php echo base_url() ?>iron-web">Compétition Iron Web</a></li>
+              <li><a href="<?php echo base_url() ?>informations-pratiques">Information pratique</a></li>
             </ul>
           </nav>
 

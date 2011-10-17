@@ -36,12 +36,12 @@
       <a id="btn-suivant" class="btn-nav" href="#"><span>Suivant</span></a>
       <ul id="numbers-viewport" class="list-custom list-hori clearfix">
         <li>
-          <span class="number">5</span>
-          <h2>Conérenciers Internationaux</h2>
+          <span class="number">30</span>
+          <h2>Conférenciers du<br>Québec</h2>
         </li>
         <li>
-          <span class="number">25</span>
-          <h2>Conérenciers<br>Locaux</h2>
+          <span class="number">40</span>
+          <h2>Bénévoles</h2>
         </li>
         <li>
           <span class="number">48</span>
@@ -91,7 +91,7 @@
 
 </div>
 <div class="sep-shadow"></div>
-<div class="page-content-block">
+<div class="page-content-block clearfix">
 
   <?php
   //############################################################################
@@ -146,7 +146,7 @@
       </div>
       <p>Le Iron Web est une compétition de 48 heures, diffusé en direct, pour les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie.</p>
       <div class="btn-more-wrapper">
-        <a href="#" title="Tout sur la compétition Iron Web">Tout sur la compétition</a>
+        <a href="<?php echo base_url() ?>iron-web" title="Tout sur la compétition Iron Web">Tout sur la compétition</a>
       </div>
     </div>
     <div class="right-side rs-content-box">
