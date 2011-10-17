@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!--[if IE 7 ]><html class="ie7" lang="fr"><![endif]-->
-<!--[if IE 8 ]><html class="ie8" lang="fr"><![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="fr"><!--<![endif]-->
+<!--[if IE 7]><html class="no-js ie7" lang="fr"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8" lang="fr"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="fr"><!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Web à Québec</title>
+    <title><?php echo isset($title) ? $title . ' | ' : '' ?>Web à Québec</title>
 
     <link rel="icon" href="<?php echo base_url(); ?>favicon.ico" />
 
@@ -44,12 +44,17 @@
       <header>
         <div class="wrapper clearfix">
 
-          <h1 class="logo-princ"><span class="logo-accronym t-indent">WAQ</span><span class="logo-full-text to-caps">Le Web à Québec</span></h1>
+          <a href="<?php echo base_url() ?>">
+            <h1 class="logo-princ">
+              <span class="logo-accronym t-indent">WAQ</span>
+              <span class="logo-full-text to-caps">Le Web à Québec</span>
+            </h1>
+          </a>
 
           <div class="event-details">
             <span class="lieu">Espace 400e Bell. Québec</span>
             <time class="dates" datetime="2012-02-22">22-25 Février 2012</time>
-            <a class="btn-inscription t-indent" href="#">Inscription
+            <a class="btn-inscription t-indent" href="<?php echo base_url() ?>inscription/">Inscription
               <img class="btn-insc-normal" src="assets/img/btn-insc.png" alt="Inscription">
               <img class="btn-insc-hover" src="assets/img/btn-insc-hover.png" alt="Inscription">
             </a>
@@ -57,18 +62,18 @@
 
           <nav class="top-right">
             <ul class="list-custom list-hori">
-              <li><a href="#">À propos</a></li>
-              <li><a href="#">Médias</a></li>
-              <li><a href="#">Partenaires</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="<?php echo base_url() ?>a-propos/">À propos</a></li>
+              <li><a href="<?php echo base_url() ?>medias/">Médias</a></li>
+              <li><a href="<?php echo base_url() ?>partenaires/">Partenaires</a></li>
+              <li><a href="<?php echo base_url() ?>contact/">Contact</a></li>
             </ul>
           </nav>
 
           <nav class="menu-princ">
             <ul class="list-custom">
-              <li><a href="#">Horaire et programmation</a></li>
-              <li><a href="#">Compétition Iron Web</a></li>
-              <li><a href="#">Information pratique</a></li>
+              <li><a href="<?php echo base_url() ?>programmation/">Horaire et programmation</a></li>
+              <li><a href="<?php echo base_url() ?>iron-web/">Compétition Iron Web</a></li>
+              <li><a href="<?php echo base_url() ?>informations-pratiques/">Information pratique</a></li>
             </ul>
           </nav>
 
@@ -119,18 +124,18 @@
         </div>
         <div class="footer-box">
           <ul class="list-custom">
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Médias</a></li>
-            <li><a href="#">Partenaires</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="<?php echo base_url() ?>a-propos/">À propos</a></li>
+            <li><a href="<?php echo base_url() ?>medias/">Médias</a></li>
+            <li><a href="<?php echo base_url() ?>partenaires/">Partenaires</a></li>
+            <li><a href="<?php echo base_url() ?>contact/">Contact</a></li>
           </ul>
         </div>
         <div class="footer-box">
           <ul class="list-custom">
-            <li><a href="#">Horaire et programmation</a></li>
-            <li><a href="#">Compétition Iron Web</a></li>
-            <li><a href="#">Information pratique</a></li>
-            <li><a href="#">Inscription</a></li>
+            <li><a href="<?php echo base_url() ?>programmation/">Horaire et programmation</a></li>
+            <li><a href="<?php echo base_url() ?>iron-web/">Compétition Iron Web</a></li>
+            <li><a href="<?php echo base_url() ?>informations-pratiques/">Information pratique</a></li>
+            <li><a href="<?php echo base_url() ?>inscription/">Inscription</a></li>
           </ul>
         </div>
       </div>

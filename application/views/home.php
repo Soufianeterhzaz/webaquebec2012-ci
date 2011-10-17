@@ -126,8 +126,8 @@
     <div id="newsletter-box">
       <h3>Recevez les dernières nouvelles</h3>
       <form name="newsletter" id="newsletter" method="post" action="#" class="clearfix">
-        <input id="email" type="text" name="email" value="Votre courriel">
-        <a id="btn-submit-nl" class="btn" href="#">M'abboner</a>
+        <input id="email" type="text" name="email" placeholder="Votre courriel">
+        <a id="btn-submit-nl" class="btn" href="#">M’abonner</a>
       </form>
     </div>
 
