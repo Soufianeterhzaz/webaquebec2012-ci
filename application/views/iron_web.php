@@ -68,7 +68,7 @@
           <li>Vous devez utiliser des solutions libres de droits</li>
         </ul>
         <div class="btn-more-wrapper">
-          <a href="/assets/reglements-ironweb-2012.pdf" target="_blank" title="Tout sur nos fantastiques partenaires">Téléchargez les règlements complets</a>
+          <a href="<?php echo base_url() ?>/assets/reglements-ironweb-2012.pdf" target="_blank" title="Tout sur nos fantastiques partenaires">Téléchargez les règlements complets</a>
         </div>
       </div>
 
