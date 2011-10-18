@@ -163,7 +163,7 @@
     <div class="left-side rs-content-box iron-web">
       <h3 class="box-header">Iron Web</h3>
       <div class="white-thumb">
-        <a class="btn-vox-pop" href="http://vimeo.com/29847338">Retour sur le <strong>le Vox Pop</strong></a>
+        <a class="btn-vox-pop" href="http://vimeo.com/29847338">Retour sur le <strong>IronWeb 2011</strong></a>
       </div>
       <p>Le Iron Web est une compétition de 48 heures, diffusée en direct, par et les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie.</p>
       <div class="btn-more-wrapper">
