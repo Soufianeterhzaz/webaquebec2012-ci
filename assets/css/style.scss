@@ -189,7 +189,8 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 	display:block;
 }
 
-#iw-inscriptions input
+#iw-inscriptions .text input,
+#iw-inscriptions .submit input
 {
 	@include rounded(4px);
 	@include shadow('0 0 0 3px #fff, 0 0 0 4px #f0f0f0');
@@ -285,8 +286,7 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 		}
 	}
 
-	&.submit,
-	&.checkbox
+	&.submit
 	{
 		input
 		{

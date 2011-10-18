@@ -106,22 +106,6 @@ $this->load->helper('form');
           <?php echo form_textarea(array('name'=>'question3', 'value'=>set_value('question3'))); ?>
           <?php echo form_error('question3'); ?>
         </div>
-        <h3 class="box-header">Informations de santé et d'urgence</h3>
-        <div class="required input textarea">
-          <label for="nom_complet">Restrictions alimentaires, allergies, maladies <br/>ou autres informations importantes sur la santé<span class="required">*</a></label>
-          <?php echo form_textarea(array('name'=>'allergies', 'value'=>set_value('allergies'))); ?>
-          <?php echo form_error('allergies'); ?>
-        </div>
-        <div class="required input text">
-          <label for="nom_complet">Personne à contacter en cas d'urgence<span class="required">*</a></label>
-          <?php echo form_input(array('name'=>'urgenec_nom', 'value'=>set_value('urgenec_nom'))); ?>
-          <?php echo form_error('urgenec_nom'); ?>
-        </div>
-        <div class="required input text">
-          <label for="nom_complet">Numéro de la personne à contacter en cas d'urgence<span class="required">*</a></label>
-          <?php echo form_input(array('name'=>'urgence_tel', 'value'=>set_value('urgence_tel'))); ?>
-          <?php echo form_error('urgence_tel'); ?>
-        </div>
         <div class="input submit">
           <input type="submit" value="Envoyer ma candidature" />
         </div>
@@ -129,7 +113,7 @@ $this->load->helper('form');
       <?php else: ?>
         <h3 class="box-header">Inscription complétée</h3>
         <div class="rs-content-box">
-          <p>Merci! Nous vous communiquerons avec vous à <?php echo $_POST['courriel'] ?> après le 11 novembre.
+          <p>Merci! Nous communiquerons avec vous à <?php echo $_POST['courriel'] ?> après le 11 novembre.
           <p>Bonne chance!</p>
         </div>
       <?php endif ?>
