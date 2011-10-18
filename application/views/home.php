@@ -102,9 +102,9 @@
             <img src="<?php echo base_url() ?>assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
           </a>
         </li>
-      </ul>
+			</ul>
       <div class="btn-more-wrapper">
-        <a href="#" style="clear: both;">Consulter toute la programmation</a>
+				<a<?/* href="#"*/?> style="clear: both;">Consulter toute la programmation</a>
       </div>
     </div>
 
@@ -142,7 +142,7 @@
       </div>
       <p>Sans la participation de ses nombreux commanditaires, le WAQ ne pourrait offrir un tel niveau de qualité à un coût si peu élevé. Merci à tous nos partenaires.</p>
       <div class="btn-more-wrapper">
-        <a href="#" title="Tout sur nos fantastiques partenaires">Tout sur les partenaires</a>
+        <a href="<?php echo base_url() ?>partenaires/" title="Tout sur nos fantastiques partenaires">Tout sur les partenaires</a>
       </div>
     </div>
   </div>
