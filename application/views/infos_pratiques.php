@@ -1,4 +1,4 @@
-<div class="ros-wrapper">
+<div class="ip-wrapper">
   <div class="page-content-block clearfix">
 
     <?php
@@ -63,15 +63,15 @@
         <h3 class="box-header">Espace 400E Bell</h3>
         <div class="left-side rs-content-box iron-web">
           <h4>E400</h4>
-          <address>
+          <p>
             100 quai St-André<br>
             Québec, Qc<br>
             G1K 3Y2
-          </address>
+          </p>
         </div>
 
         <div class="right-side rs-content-box iron-web">
-          <div id="map-espace400"></div>
+          <div id="map-espace400" class="rs-googlemap"></div>
         </div>
 
       </div>
@@ -83,14 +83,15 @@
         <div class="left-side rs-content-box iron-web">
 
           <h4>Hôtel le Saint-Paul</h4>
-          <address>
+          <p>
             229 1/2 SAINT-PAUL RUE<br>
-            Québec
-          </address>
+            Québec<br>
+            (418) 694-4414
+          </p>
         </div>
 
         <div class="right-side rs-content-box iron-web">
-          <div id="map-hotelsp"></div>
+          <div id="map-hotelsp" class="rs-googlemap"></div>
         </div>
 
       </div>
@@ -100,14 +101,46 @@
         <div class="left-side rs-content-box iron-web">
 
           <h4>Hôtel Port-Royal Inc</h4>
-          <address>
+          <p>
             144 Rue Saint Pierre<br>
-            Québec, QC G1K 8N8
-          </address>
+            Québec, QC G1K 8N8<br>
+            (418) 692-2777
+          </p>
         </div>
 
         <div class="right-side rs-content-box iron-web">
-          <div id="map-hotelsp"></div>
+          <div id="map-hotelpr" class="rs-googlemap"></div>
+        </div>
+
+      </div>
+
+      <div class="full-width rs-content-box clearfix">
+
+        <h3 class="box-header">Stationnements</h3>
+        <p>Plusieurs stationnements à proximité (extérieurs et payants)</p>
+        <div class="left-side rs-content-box iron-web">
+
+          <ul class="list-custom">
+            <li><a href="http://www.vincipark.ca/recherche/details/117-st-andre/163">Saint-Thomas</a></li>
+            <li><a href="http://www.vincipark.ca/recherche/details/117-st-andre/163">Saint-André</a></li>
+            <li><a href="http://www.vincipark.ca/recherche/details/117-st-andre/163">Samson</a></li>
+            <li><a href="http://www.vincipark.ca/recherche/details/117-st-andre/163">et autres</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="full-width rs-content-box clearfix">
+
+        <h3 class="box-header">Vous prenez le bus ?</h3>
+        <p>Plusieurs stationnements à proximité (extérieurs et payants)</p>
+        <div class="left-side rs-content-box iron-web">
+
+          <ul class="list-custom">
+            <li><a href="http://www.rtcquebec.ca/HoraireTrajet/Default.aspx?page=trajet_resultat&parcours=1">L’autobus n°1</a></li>
+            <li><a href="http://www.rtcquebec.ca/HoraireTrajet/Default.aspx?page=trajet_resultat&parcours=21">Écolobus</a></li>
+            <li><a href="http://www.rtcquebec.ca/%C3%89v%C3%A9nements/NavetteDesjardins/tabid/433/Default.aspx">Navette Desjardins</a></li>
+          </ul>
         </div>
 
       </div>

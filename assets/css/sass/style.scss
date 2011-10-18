@@ -39,7 +39,7 @@ $main-xlight-gray: #f5f5f5;
 .right-side.main{width: 600px;
   h1{font-size: 250%; padding-bottom: 5px; margin-bottom: 20px; border-bottom: 1px dotted $main-light-blue; font-family: MisoLight;}
 }
-.ros-wrapper .right-side.main{width: 580px;}
+.ros-wrapper .right-side.main, .ip-wrapper .right-side.main{width: 580px;}
 
 .right-side{
   .left-side, .right-side{width: 290px;}
@@ -48,6 +48,13 @@ $main-xlight-gray: #f5f5f5;
 .ros-wrapper{
   .right-side{
     .left-side, .right-side{width: 270px;}
+  }
+}
+
+.ip-wrapper{
+  .right-side{
+    .left-side{width: 170px;}
+    .right-side{width: 370px;}
   }
 }
 
@@ -72,27 +79,12 @@ $main-xlight-gray: #f5f5f5;
 .logo-partenaires{display: block; position: absolute; text-indent: -90000px;}
 
 
-.arrow-right{
-  position: absolute;
-  top: 0;
-  right: -10px;
-  width:0px;
-  height:0px;
-  border-bottom:19px solid transparent;  /* left arrow slant */
-  border-top:19px solid transparent; /* right arrow slant */
-  border-left:10px solid #fff; /* bottom, add background color here */
-  font-size:0px;
-  line-height:0px;
-  //@extend .light-white-gradient;
-}
-
-
 //#########################################################
 //   General     ##########################################
 
 body{background: $main-blue url(../img/back-main.png); font-family: Arial, sans-serif;}
 
-a{color: $link-color; text-decoration: none;}
+a{color: $link-color; text-decoration: none; outline: none;}
 
 h2,h3{font-family: MisoLight;}
 h4,h5{font-family: MisoRegular;}
@@ -146,6 +138,7 @@ nav.menu-princ{float: right;
 .page-content-block{margin-bottom: 20px;}
 
 h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; margin-bottom: 15px;}
+.ip-wrapper .right-side.main .box-header{padding-bottom: 5px; border-bottom: 1px dotted $main-light-blue;}
 
 .btn-more-wrapper{
   a{display: block; text-align: right; font-family: MisoRegular; font-size: 110%; @extend .to-caps; background: url(../img/icone-plus.png) no-repeat center right; padding: 1px 25px 0 0; min-height: 21px; margin-top: 15px;}
@@ -255,14 +248,16 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 }
 
 .rs-content-box{margin-bottom: 40px;
-  p, ul li, address{font-size: 80%;}
-  ul li{padding-left: 15px; background: url(../img/bullet-arrow-blue.png) no-repeat 3px 5px; margin-bottom: 5px;}
+  p, ul li, address{font-size: 80%; margin-bottom: 15px;}
+  ul li{padding-left: 15px; background: url(../img/bullet-arrow-blue.png) no-repeat 3px 5px; margin-bottom: 5px;
+    a{text-decoration: underline;}
+    a:hover{text-decoration: none;}
+  }
   p+p, p+ul, ul+p{margin-top: 20px;}
   p+h3{margin-top: 30px;}
   h4{font-family: Arial, sans-serif; font-weight: bold; margin-bottom: 10px;}
   ul+h4, p+h4, address+h4{margin-top: 25px;}
 }
-p+.rs-content-box{margin-top: 15px;}
 .white-thumb{@include border-radius(5px); background: #fff; margin-bottom: 15px; min-height: 185px; position: relative; @include box-shadow(0 2px 4px rgba(#000, 0.2)); position: relative;
   .btn-vox-pop{top: 65px; left: 65px;}
 }
@@ -276,6 +271,8 @@ p+.rs-content-box{margin-top: 15px;}
 .liste-reglements{
   li{background: url(../img/bullet-arrow-blue.png) no-repeat 0 5px; padding-left: 15px; margin-bottom: 10px;}
 }
+
+.rs-googlemap{width: 370px; height: 250px;}
 
 //#########################################
 //   Footer     ###########################

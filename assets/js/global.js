@@ -64,8 +64,140 @@ function initialize() {
   marker.setMap(map);
 }
 
+
+function initialize_ip() {
+
+  // Espace 400e  ##############################################################
+
+  var latlng_e400 = new google.maps.LatLng(46.81303, -71.22538);
+
+  var map_e400 = new google.maps.Map(document.getElementById("map-espace400"), {
+    zoom: 15,
+    center: latlng_e400,
+    scrollwheel: false,
+    disableDefaultUI: true,
+    mapTypeControl: false,
+    navigationControl: true,
+    mapTypeControlOptions: {
+      mapTypeIds: 'waq'
+    }
+  });
+
+
+  // Hotel Saint-Paul  #####################################################
+
+  var latlng_sp = new google.maps.LatLng(46.81686, -71.20932);
+
+  var map_sp = new google.maps.Map(document.getElementById("map-hotelsp"), {
+    zoom: 15,
+    center: latlng_sp,
+    scrollwheel: false,
+    disableDefaultUI: true,
+    mapTypeControl: false,
+    navigationControl: true,
+    mapTypeControlOptions: {
+      mapTypeIds: 'waq'
+    }
+  });
+
+
+  // Hotel Port-Royal  #####################################################
+
+  var latlng_pr = new google.maps.LatLng(46.81451, -71.20277);
+
+  var map_pr = new google.maps.Map(document.getElementById("map-hotelpr"), {
+    zoom: 15,
+    center: latlng_pr,
+    scrollwheel: false,
+    disableDefaultUI: true,
+    mapTypeControl: false,
+    navigationControl: true,
+    mapTypeControlOptions: {
+      mapTypeIds: 'waq'
+    }
+  });
+
+  /* Styles {{{ */
+
+  var mapStyles = [
+  {
+    featureType: "landscape",
+      elementType: "all",
+      stylers: [
+      { hue: "#000000" },
+      { saturation: -255 },
+      { lightness: 3 }
+    ]
+  },
+  {
+    featureType: "water",
+    elementType: "all",
+    stylers: [
+    { hue: "#4CABCF" }
+    ]
+  },
+  {
+    featureType: "road",
+    elementType: "all",
+    stylers: [
+    { hue: "#006D96" },
+    { lightness: 10 }
+    ]
+  },
+  {
+    featureType: "poi",
+    elementType: "all",
+    stylers: [
+    { hue: "#006D96" },
+    { saturation: -30 },
+    { gamma: 0.7 }
+    ]
+  }
+  ];
+  var styledMapType = new google.maps.StyledMapType(mapStyles, {name: 'waq'});
+
+
+  // Espace 400e  ##########################
+
+  map_e400.mapTypes.set('waq', styledMapType);
+  map_e400.setMapTypeId('waq');
+
+  var marker_e400 = new google.maps.Marker({
+    position: latlng_e400,
+      title:"Web à Québec"
+  });
+  marker_e400.setMap(map_e400);
+
+
+  // Hotel Saint-Paul  ###################
+
+  map_sp.mapTypes.set('waq', styledMapType);
+  map_sp.setMapTypeId('waq');
+
+  var marker_sp = new google.maps.Marker({
+    position: latlng_sp,
+      title:"Hôtel le Saint-Paul"
+  });
+  marker_sp.setMap(map_sp);
+
+
+  // Hotel Port-Royal  ###################
+
+  map_pr.mapTypes.set('waq', styledMapType);
+  map_pr.setMapTypeId('waq');
+
+  var marker_pr = new google.maps.Marker({
+    position: latlng_pr,
+      title:"Hôtel Port-Royal Inc"
+  });
+  marker_pr.setMap(map_pr);
+
+}
+
 $(function(){
   initialize();
+
+  if($('.ip-wrapper').length > 0){initialize_ip();}
 
   $('.white-thumb .logo-partenaires').each(function(){
     $(this).css({

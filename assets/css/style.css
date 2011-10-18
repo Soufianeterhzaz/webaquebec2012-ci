@@ -126,7 +126,7 @@ time, mark, audio, video {
   font-family: MisoLight;
 }
 
-.ros-wrapper .right-side.main {
+.ros-wrapper .right-side.main, .ip-wrapper .right-side.main {
   width: 580px;
 }
 
@@ -136,6 +136,13 @@ time, mark, audio, video {
 
 .ros-wrapper .right-side .left-side, .ros-wrapper .right-side .right-side {
   width: 270px;
+}
+
+.ip-wrapper .right-side .left-side {
+  width: 170px;
+}
+.ip-wrapper .right-side .right-side {
+  width: 370px;
 }
 
 .sep-shadow {
@@ -235,22 +242,6 @@ time, mark, audio, video {
   text-indent: -90000px;
 }
 
-.arrow-right {
-  position: absolute;
-  top: 0;
-  right: -10px;
-  width: 0px;
-  height: 0px;
-  border-bottom: 19px solid transparent;
-  /* left arrow slant */
-  border-top: 19px solid transparent;
-  /* right arrow slant */
-  border-left: 10px solid #fff;
-  /* bottom, add background color here */
-  font-size: 0px;
-  line-height: 0px;
-}
-
 body {
   background: #0087ba url(../img/back-main.png);
   font-family: Arial, sans-serif;
@@ -259,6 +250,7 @@ body {
 a {
   color: white;
   text-decoration: none;
+  outline: none;
 }
 
 h2, h3 {
@@ -404,6 +396,11 @@ nav.menu-princ ul li a:link:hover {
 h3.box-header {
   font-size: 180%;
   margin-bottom: 15px;
+}
+
+.ip-wrapper .right-side.main .box-header {
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #4cabcf;
 }
 
 .btn-more-wrapper a {
@@ -778,11 +775,18 @@ h3.box-header {
 }
 .rs-content-box p, .rs-content-box ul li, .rs-content-box address {
   font-size: 80%;
+  margin-bottom: 15px;
 }
 .rs-content-box ul li {
   padding-left: 15px;
   background: url(../img/bullet-arrow-blue.png) no-repeat 3px 5px;
   margin-bottom: 5px;
+}
+.rs-content-box ul li a {
+  text-decoration: underline;
+}
+.rs-content-box ul li a:hover {
+  text-decoration: none;
 }
 .rs-content-box p + p, .rs-content-box p + ul, .rs-content-box ul + p {
   margin-top: 20px;
@@ -797,10 +801,6 @@ h3.box-header {
 }
 .rs-content-box ul + h4, .rs-content-box p + h4, .rs-content-box address + h4 {
   margin-top: 25px;
-}
-
-p + .rs-content-box {
-  margin-top: 15px;
 }
 
 .white-thumb {
@@ -839,6 +839,11 @@ p + .rs-content-box {
   background: url(../img/bullet-arrow-blue.png) no-repeat 0 5px;
   padding-left: 15px;
   margin-bottom: 10px;
+}
+
+.rs-googlemap {
+  width: 370px;
+  height: 250px;
 }
 
 .footer-box {
