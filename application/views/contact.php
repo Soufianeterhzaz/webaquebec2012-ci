@@ -45,41 +45,8 @@
 <div class="page-content-block">
 
   <div class="left-side main">
-    <div id="news-box">
-      <h3 class="box-header">Dernières nouvelles</h3>
-      <ul class="list-custom">
-        <li>
-          <p>
-            Suspendisse potenti. Morbi ac enim quis nisi varius condime
-ntum in at sapien. Ut vitae tortor nunc, quis feugiat dolor.
-Proin et varius leo.<a href="#">Lire plus</a>
-          </p>
-        </li>
-        <li>
-          <p>
-            Suspendisse potenti. Morbi ac enim quis nisi varius condime
-ntum in at sapien. Ut vitae tortor nunc, quis feugiat dolor.
-Proin et varius leo.<a href="#">Lire plus</a>
-          </p>
-        </li>
-        <li>
-          <p>
-            Suspendisse potenti. Morbi ac enim quis nisi varius condime
-ntum in at sapien. Ut vitae tortor nunc, quis feugiat dolor.
-Proin et varius leo.<a href="#">Lire plus</a>
-          </p>
-        </li>
-      </ul>
-    </div>
-
-    <div id="newsletter-box">
-      <h3>Recevez les dernières nouvelles</h3>
-      <form name="newsletter" id="newsletter" method="post" action="http://webaquebec.createsend.com/t/r/s/akkjhl/" class="clearfix">
-        <input id="email" type="text" name="cm-akkjhl-akkjhl" placeholder="Votre courriel">
-        <button id="btn-submit-nl" class="btn">M’abonner</button>
-      </form>
-    </div>
-
+    <?php $this->load->view('news_box') ?>
+    <?php $this->load->view('newsletter_box') ?>
   </div>
 
   <div class="right-side main">
