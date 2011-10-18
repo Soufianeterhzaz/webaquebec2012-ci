@@ -53,7 +53,7 @@
 
           <div class="event-details">
             <span class="lieu">Espace 400e Bell. Québec</span>
-            <time class="dates" datetime="2012-02-22">22-25 Février 2012</time>
+            <time class="dates" datetime="2012-02-22">22-24 Février 2012</time>
             <a class="btn-inscription t-indent" href="<?php echo base_url() ?>inscription/">Inscription
               <img class="btn-insc-normal" src="<?php echo base_url() ?>assets/img/btn-insc.png" alt="Inscription">
               <img class="btn-insc-hover" src="<?php echo base_url() ?>assets/img/btn-insc-hover.png" alt="Inscription">
