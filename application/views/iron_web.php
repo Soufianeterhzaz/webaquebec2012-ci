@@ -15,14 +15,16 @@
   <div class="page-content-block clearfix">
 
     <div class="left-side main">
-      <?php $this->load->view('iron_web_voxpop') ?>
+			<?php $this->load->view('iron_web_voxpop') ?>
+			<?/*
       <div id="commenditaires-principaux" class="rs-content-box clearfix">
         <h3 class="box-header">Commanditaires principaux</h3>
         <div class="white-thumb">
           <a id="logo-libeo" class="logo-partenaires" href="#">Libéo - Web et applications libres</a>
         </div>
         <p>Le WAQ remercie tous les commanditaires du Iron Web, qui rendent la compétition et sa diffusion possible.</p>
-      </div>
+			</div>
+			*/?>
     </div>
 
     <article class="right-side main">
