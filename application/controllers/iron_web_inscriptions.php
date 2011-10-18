@@ -17,9 +17,6 @@ class Iron_Web_Inscriptions extends CI_Controller {
 		$this->form_validation->set_rules('question1', '', 'required');
 		$this->form_validation->set_rules('question2', '', 'required');
 		$this->form_validation->set_rules('question3', '', 'required');
-		$this->form_validation->set_rules('urgenec_nom', '', 'required');
-		$this->form_validation->set_rules('urgence_tel', '', 'required');
-		$this->form_validation->set_rules('allergies', '', 'required');
 		$this->form_validation->set_rules('environnement', '', 'required');
 		$this->form_validation->set_rules('fonction', '', 'required');
 		// Validations messages
