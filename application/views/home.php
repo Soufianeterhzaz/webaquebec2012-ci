@@ -146,8 +146,12 @@
     </div>
     <div class="right-side rs-content-box">
       <h3 class="box-header">Commanditaires principaux</h3>
-      <div class="white-thumb">
+			<div class="white-thumb commanditaires-principaux">
+				<a href="http://www.libeo.com/" target="_blank"><img id="logo-libeo" src="<?php echo base_url() ?>/assets/img/partenaires/225x100/libeo.png" alt="Libéo"></a>
+				<a href="http://www.ixmedia.com/" target="_blank"><img id="logo-ixmedia" src="<?php echo base_url() ?>/assets/img/partenaires/225x100/ixmedia.png" alt="iXmédia"></a>
+<?/*
         <a id="logo-libeo" class="logo-partenaires" href="#">Libéo - Web et applications libres</a>
+*/?>
       </div>
       <p>Sans la participation de ses nombreux commanditaires, le WAQ ne pourrait offrir un tel niveau de qualité à un coût si peu élevé. Merci à tous nos partenaires.</p>
       <div class="btn-more-wrapper">

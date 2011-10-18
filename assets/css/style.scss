@@ -145,6 +145,31 @@ nav.menu-princ{float: right;
 
 
 //#########################################################
+//   Home             #####################################
+
+.commanditaires-principaux {
+  position: relative;
+  padding: 1em 0;
+}
+
+
+.commanditaires-principaux a {
+  text-align: center;
+  display: block;
+  opacity: 0.8;
+  @include transition(opacity 0.1s ease-in-out)
+}
+
+.commanditaires-principaux img {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.commanditaires-principaux a:hover {
+  opacity: 1;
+}
+
+//#########################################################
 //   Main Content     #####################################
 
 #page-content{background: url(../img/back-zebre.png) no-repeat top center; padding: 25px 0;}
@@ -154,7 +179,12 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 .ip-wrapper .right-side.main .box-header{padding-bottom: 5px; border-bottom: 1px dotted $main-light-blue;}
 
 .btn-more-wrapper{
-  a{display: block; text-align: right; font-family: MisoRegular; font-size: 110%; @extend .to-caps; background: url(../img/icone-plus.png) no-repeat center right; padding: 1px 25px 0 0; min-height: 21px; margin-top: 15px;}
+  a{
+    display: block; text-align: right; font-family: MisoRegular; font-size: 110%; @extend .to-caps; background: url(../img/icone-plus.png) no-repeat center right; padding: 1px 25px 0 0; min-height: 21px; margin-top: 15px;
+    opacity: 0.8;
+    @include transition(opacity 0.1s ease-in-out);
+    &:hover { opacity: 1; }
+  }
 }
 
 //#########################################
