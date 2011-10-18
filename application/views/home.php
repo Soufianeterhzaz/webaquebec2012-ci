@@ -124,10 +124,10 @@
     </div>
 
     <div id="newsletter-box">
-			<h3>Recevez les dernières nouvelles<span></span></h3>
+      <h3>Recevez les dernières nouvelles</h3>
       <form name="newsletter" id="newsletter" method="post" action="http://ix.createsend.com/t/y/s/uiluti/" class="clearfix">
         <input id="email" type="text" name="cm-uiluti-uiluti" placeholder="Votre courriel">
-        <a id="btn-submit-nl" class="btn" href="#">M’abonner</a>
+        <button id="btn-submit-nl" class="btn">M’abonner</button>
       </form>
     </div>
 

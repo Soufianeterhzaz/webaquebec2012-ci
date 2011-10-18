@@ -5,7 +5,7 @@
       <span class="to-cap"></span>
     </div>
 
-    <a id="btn-candidature" target="_blank" href="https://docs.google.com/a/webaquebec.org/spreadsheet/viewform?hl=en_US&formkey=dHBJWW5MNnFMMDBtSmJWVnBHemV0Tnc6MA#gid=0">
+    <a id="btn-candidature" href="<?php echo base_url() ?>inscriptions/">
       <span class="call-to-action">Soumettez votre candidature</span>
       <span class="date-limite">Date limite: 11 novembre</span>
     </a>
