@@ -1,7 +1,7 @@
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp,
+small, sub, sup, var, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
@@ -63,14 +63,9 @@ time, mark, audio, video {
   display: block; }
 
 .ow {
-<<<<<<< HEAD
   width: 100%;
   min-width: 960px;
-  background: transparent url("../img/back-hollow-top-right.png") no-repeat center top;
-}
-=======
-  width: 100%; }
->>>>>>> Inscriptions styling
+  background: transparent url("../img/back-hollow-top-right.png") no-repeat center top; }
 
 .wrapper {
   width: 960px;
@@ -104,15 +99,15 @@ time, mark, audio, video {
 
 .right-side.main {
   width: 600px; }
+  .right-side.main h1 {
+    font-size: 250%;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #4cabcf;
+    font-family: MisoLight; }
 
-<<<<<<< HEAD
 .ros-wrapper .right-side.main, .ip-wrapper .right-side.main {
-  width: 580px;
-}
-=======
-.ros-wrapper .right-side.main {
   width: 580px; }
->>>>>>> Inscriptions styling
 
 .right-side .left-side, .right-side .right-side {
   width: 290px; }
@@ -121,11 +116,9 @@ time, mark, audio, video {
   width: 270px; }
 
 .ip-wrapper .right-side .left-side {
-  width: 170px;
-}
+  width: 170px; }
 .ip-wrapper .right-side .right-side {
-  width: 370px;
-}
+  width: 370px; }
 
 .sep-shadow {
   height: 14px;
@@ -211,37 +204,14 @@ time, mark, audio, video {
   position: absolute;
   text-indent: -90000px; }
 
-<<<<<<< HEAD
-=======
-.arrow-right {
-  position: absolute;
-  top: 0;
-  right: -10px;
-  width: 0px;
-  height: 0px;
-  border-bottom: 19px solid transparent;
-  /* left arrow slant */
-  border-top: 19px solid transparent;
-  /* right arrow slant */
-  border-left: 10px solid #fff;
-  /* bottom, add background color here */
-  font-size: 0px;
-  line-height: 0px; }
-
->>>>>>> Inscriptions styling
 body {
   background: #0087ba url(../img/back-main.png);
   font-family: Arial, sans-serif; }
 
 a {
   color: white;
-<<<<<<< HEAD
   text-decoration: none;
-  outline: none;
-}
-=======
-  text-decoration: none; }
->>>>>>> Inscriptions styling
+  outline: none; }
 
 h2, h3 {
   font-family: MisoLight; }
@@ -361,8 +331,7 @@ h3.box-header {
 
 .ip-wrapper .right-side.main .box-header {
   padding-bottom: 5px;
-  border-bottom: 1px dotted #4cabcf;
-}
+  border-bottom: 1px dotted #4cabcf; }
 
 .btn-more-wrapper a {
   display: block;
@@ -757,46 +726,18 @@ h3.box-header {
     opacity: 1; }
 
 .rs-content-box {
-<<<<<<< HEAD
-  margin-bottom: 40px;
-}
-.rs-content-box p, .rs-content-box ul li {
-  font-size: 80%;
-  margin-bottom: 15px;
-}
-.rs-content-box ul li {
-  padding-left: 15px;
-  background: url(../img/bullet-arrow-blue.png) no-repeat 3px 5px;
-  margin-bottom: 5px;
-}
-.rs-content-box ul li a {
-  text-decoration: underline;
-}
-.rs-content-box ul li a:hover {
-  text-decoration: none;
-}
-.rs-content-box p + p, .rs-content-box p + ul, .rs-content-box ul + p {
-  margin-top: 20px;
-}
-.rs-content-box p + h3 {
-  margin-top: 30px;
-}
-.rs-content-box h4 {
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.rs-content-box ul + h4, .rs-content-box p + h4 {
-  margin-top: 25px;
-}
-=======
   margin-bottom: 40px; }
-  .rs-content-box p, .rs-content-box ul li {
-    font-size: 80%; }
+  .rs-content-box p, .rs-content-box ul li, .rs-content-box address {
+    font-size: 80%;
+    margin-bottom: 15px; }
   .rs-content-box ul li {
     padding-left: 15px;
     background: url(../img/bullet-arrow-blue.png) no-repeat 3px 5px;
     margin-bottom: 5px; }
+    .rs-content-box ul li a {
+      text-decoration: underline; }
+    .rs-content-box ul li a:hover {
+      text-decoration: none; }
   .rs-content-box p + p, .rs-content-box p + ul, .rs-content-box ul + p {
     margin-top: 20px; }
   .rs-content-box p + h3 {
@@ -807,7 +748,6 @@ h3.box-header {
     margin-bottom: 10px; }
   .rs-content-box ul + h4, .rs-content-box p + h4 {
     margin-top: 25px; }
->>>>>>> Inscriptions styling
 
 .white-thumb {
   -webkit-border-radius: 5px;
@@ -843,8 +783,7 @@ h3.box-header {
 
 .rs-googlemap {
   width: 370px;
-  height: 250px;
-}
+  height: 250px; }
 
 .footer-box {
   float: left;
