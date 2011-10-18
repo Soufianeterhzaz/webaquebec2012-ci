@@ -22,8 +22,7 @@ class Inscriptions extends CI_Controller {
 		$this->form_validation->set_rules('question3', '', 'required');
 		$this->form_validation->set_rules('urgenec_nom', '', 'required');
 		$this->form_validation->set_rules('urgence_tel', '', 'required');
-		$this->form_validation->set_rules('profil', 'Profil', 'required');
-		$this->form_validation->set_rules('profil', 'Profil', 'required');
+		$this->form_validation->set_rules('allergies', '', 'required');
 		// Validations messages
 		$this->form_validation->set_message('required', 'Ce champ est requis');
 		$this->form_validation->set_message('email', 'Courriel invalide');
@@ -35,9 +34,9 @@ class Inscriptions extends CI_Controller {
 		}
 		else
 		{
+			$this->db->insert('inscriptions', $_POST);
 			$data['view_data']['saved'] = true;
-			$this->my_controller->load_view('inscription', $data);
-			$this->db->insert('inscriptions', $_POST); 
+			$this->my_controller->load_view('inscription', $data); 
 		}
 	}
 }

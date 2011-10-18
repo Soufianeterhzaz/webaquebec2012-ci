@@ -95,7 +95,11 @@ $this->load->helper('form');
 				</div>
       </div>
       <?php else: ?>
-        <p>Merci!</p>
+        <h3 class="box-header">Inscription complétée</h3>
+        <div class="rs-content-box">
+					<p>Merci! Nous vous contacterons à <?php echo $_POST['courriel'] ?> après le 11 novembre.
+					<p>Bonne chance!</p>
+				</div>
       <?php endif ?>
     </div>
 
