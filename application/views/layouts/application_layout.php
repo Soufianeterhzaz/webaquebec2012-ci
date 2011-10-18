@@ -45,10 +45,10 @@
         <div class="wrapper clearfix">
 
           <a href="<?php echo base_url() ?>">
-            <h1 class="logo-princ">
+            <div class="logo-princ">
               <span class="logo-accronym t-indent">WAQ</span>
               <span class="logo-full-text to-caps">Le Web à Québec</span>
-            </h1>
+            </div>
           </a>
 
           <div class="event-details">

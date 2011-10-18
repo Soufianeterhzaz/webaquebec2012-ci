@@ -1,7 +1,7 @@
 <div class="ros-wrapper">
   <div id="iw-header" class="page-content-block clearfix">
     <div id="logo-iw">
-      <h2 class="t-indent">Iron Web</h2>
+      <h1 class="t-indent">Iron Web</h1>
       <span class="to-cap"></span>
     </div>
 
@@ -43,7 +43,7 @@
 
     </div>
 
-    <div class="right-side main">
+    <article class="right-side main">
       <div class="left-side rs-content-box">
         <h3 class="box-header">48 heures de compétition</h3>
         <p>Le Iron Web est une compétition pour les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie. Confinés à l’Espace 400e Bell pendant 48 heures, les participants devront concevoir un site Web rien de moins qu’extraordinaire. Une réalisation qui épatera le jury et le public, mais surtout, qui permettra à Québec de rayonner comme joueur important du Web au Québec et même dans le monde entier!</p>
@@ -79,7 +79,7 @@
         <p>Une entreprise qui possède une ressource qui se qualifie pour représenter la crème de Québec, c’est une excellente nouvelle. Une occasion de visibilité pour vous et un défi stimulant pour votre employé.</p>
       </div>
 
-    </div>
+    </article>
 
   </div>
 
