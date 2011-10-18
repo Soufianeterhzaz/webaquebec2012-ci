@@ -5,7 +5,7 @@
       <span class="to-cap"></span>
     </div>
 
-    <a id="btn-candidature" href="<?php echo base_url() ?>inscriptions/">
+    <a id="btn-candidature" href="<?php echo base_url() ?>iron-web-inscriptions/">
       <span class="call-to-action">Soumettez votre candidature</span>
       <span class="date-limite">Date limite: 11 novembre</span>
     </a>

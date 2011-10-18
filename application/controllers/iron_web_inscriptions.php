@@ -1,13 +1,13 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Inscriptions extends CI_Controller {
+class IronWebInscriptions extends CI_Controller {
 
 	public function index() {
 		$data = array(
 		  'title' => 'Inscription au l\'Iron Web 2012',
 			'view_data'=>array()
 		);
-		$this->load->model('Inscription');
+		$this->load->model('IronWebInscription');
 		$this->load->library('form_validation');
 		// Validations rukes
 		$this->form_validation->set_rules('nom_complet', 'Nom complet', 'required');
@@ -30,13 +30,14 @@ class Inscriptions extends CI_Controller {
 		if ($this->form_validation->run() == FALSE)
 		{
 		  $data['view_data']['saved'] = false;
-			$this->my_controller->load_view('inscription', $data);
 		}
 		else
 		{
-			$this->db->insert('inscriptions', $_POST);
-			$data['view_data']['saved'] = true;
-			$this->my_controller->load_view('inscription', $data); 
+			if($this->db->insert('iron_web_inscriptions', $_POST))
+			{
+			  $data['view_data']['saved'] = true;
+			}
 		}
+		$this->my_controller->load_view('iron_web_inscriptions', $data); 
 	}
 }
