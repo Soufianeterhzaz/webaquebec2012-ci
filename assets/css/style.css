@@ -76,6 +76,8 @@ time, mark, audio, video {
 
 .ow {
   width: 100%;
+  min-width: 960px;
+  background: transparent url("../img/back-hollow-top-right.png") no-repeat center top;
 }
 
 .wrapper {
