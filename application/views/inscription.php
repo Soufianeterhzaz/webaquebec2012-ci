@@ -7,21 +7,6 @@
     ?>
 
     <div class="left-side main">
-      <div id="vox-pop" class="white-box">
-        <h3>L’expérience Iron Web 2011</h3>
-        <div class="thumb">
-          <a class="btn-vox-pop" href="http://vimeo.com/29752446">Écoutez<strong>le Vox Pop</strong></a>
-          <img src="<?php echo base_url() ?>assets/img/ph-lc-iw.jpg" alt="Apercu du Vox Pop">
-        </div>
-        <div class="content">
-          <p>Que pensent les participants du Iron Web 2011 de leur expérience? Écoutez-les!</p>
-        </div>
-        <ul class="social-bar list-custom list-hori clearfix">
-          <li><span>Suivez-nous</span></li>
-          <li><a class="btn-facebook" href="#" title="Suivez-nous sur Facebook">Facebook</a></li>
-          <li><a class="btn-twitter" href="#" title="Suivex-nous sur Twitter">Twitter</a></li>
-        </ul>
-      </div>
       <div id="news-box" class="ls-content-box">
         <h3 class="box-header">Dernières nouvelles</h3>
         <ul class="list-custom">
