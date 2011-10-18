@@ -105,28 +105,28 @@
         <li>
           <h4>Qu’est-ce que le Web à Québec, pour vous?</h4>
           <p>
-            Les membres du WAQ se prononcent sur Twitter. Participez à la conversation! #WAQ2012<a href="#">Lire plus</a>
+					Les membres du WAQ se prononcent sur Twitter. Participez à la conversation! #WAQ2012<?//<a href="#">Lire plus</a>?>
           </p>
         </li>
         <li>
           <h4>Les inscriptions au Iron Web sont ouvertes</h4>
           <p>
-            Posez votre candidature aujourd’hui pour vivre une expérience inoubliable!<a href="#">Lire plus</a>
+					Posez votre candidature aujourd’hui pour vivre une expérience inoubliable!<?//<a href="#">Lire plus</a>?>
           </p>
         </li>
         <li>
           <h4>Devenez commanditaire du WAQ 2012</h4>
           <p>
-            Près de 25 opportunités de commandites sont offertes. Une belle occasion de vous associer au Web à Québec. Nous sommes aussi à la recherche de commanditaires de services (nourriture, mobilier, etc.) ainsi que de partenaires médias.<a href="#">Lire plus</a>
+					Près de 25 opportunités de commandites sont offertes. Une belle occasion de vous associer au Web à Québec. Nous sommes aussi à la recherche de commanditaires de services (nourriture, mobilier, etc.) ainsi que de partenaires médias.<?//<a href="#">Lire plus</a>?>
           </p>
         </li>
       </ul>
     </div>
 
     <div id="newsletter-box">
-      <h3>Recevez les dernières nouvelles</h3>
-      <form name="newsletter" id="newsletter" method="post" action="#" class="clearfix">
-        <input id="email" type="text" name="email" placeholder="Votre courriel">
+			<h3>Recevez les dernières nouvelles</h3>
+      <form name="newsletter" id="newsletter" method="post" action="http://ix.createsend.com/t/y/s/uiluti/" class="clearfix">
+        <input id="email" type="text" name="cm-uiluti-uiluti" placeholder="Votre courriel">
         <a id="btn-submit-nl" class="btn" href="#">M’abonner</a>
       </form>
     </div>

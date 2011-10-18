@@ -20,7 +20,7 @@
     ?>
 
     <div class="left-side main">
-      <div id="vox-pop" class="white-box">
+      <div id="vox-pop" class="white-box rs-content-box">
         <h3>L’expérience Iron Web 2011</h3>
         <div class="thumb">
           <a class="btn-vox-pop" href="http://vimeo.com/29752446">Écoutez<strong>le Vox Pop</strong></a>
@@ -33,11 +33,12 @@
         </div>
       </div>
 
-      <div id="commenditaires-principaux" class="white-box">
-        <h3>Commanditaires principaux</h3>
+      <div id="commenditaires-principaux" class="rs-content-box clearfix">
+        <h3 class="box-header">Commanditaires principaux</h3>
         <div class="white-thumb">
           <a id="logo-libeo" class="logo-partenaires" href="#">Libéo - Web et applications libres</a>
         </div>
+        <p>Le WAQ remercie tous les commanditaires du Iron Web, qui rendent la compétition et sa diffusion possible.</p>
       </div>
 
     </div>
@@ -67,7 +68,7 @@
           <li>Vous devez utiliser des solutions libres de droits</li>
         </ul>
         <div class="btn-more-wrapper">
-          <a href="/assets/reglements-ironweb-2012.pdf" target="_blank" title="Tout sur nos fantastiques partenaires">Téléchargez les règlements complets</a>
+          <a href="<?php echo base_url() ?>/assets/reglements-ironweb-2012.pdf" target="_blank" title="Tout sur nos fantastiques partenaires">Téléchargez les règlements complets</a>
         </div>
       </div>
 
