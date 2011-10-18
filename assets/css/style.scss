@@ -216,6 +216,18 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 }
 
 
+#iw-inscriptions textarea
+{
+	@include rounded(4px);
+	@include shadow('0 0 0 3px #fff, 0 0 0 4px #f0f0f0');
+	@include vgradient(#f5f5f5, #fff, '', #fafafa);
+
+	border: 1px solid #e1e1e1;
+	margin: 6px 4px;
+	padding: 0;
+}
+
+
 #iw-inscriptions label .required
 {
 	color:#292929;
@@ -225,8 +237,7 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 {
 	margin-bottom: 5px;
 
-	&.text,
-	&.textarea
+	&.text
 	{
 		input
 		{
