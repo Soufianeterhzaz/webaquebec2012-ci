@@ -63,7 +63,7 @@
           <nav class="top-right">
             <ul class="list-custom list-hori">
               <li><a href="<?php echo base_url() ?>a-propos/">À propos</a></li>
-              <li><a>Médias</a></li>
+							<?/*<li><a>Médias</a></li>*/?>
               <li><a href="<?php echo base_url() ?>partenaires/">Partenaires</a></li>
               <li><a href="<?php echo base_url() ?>contact/">Contact</a></li>
             </ul>
