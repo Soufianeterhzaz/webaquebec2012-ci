@@ -1,5 +1,8 @@
+var lat_e400 = 46.817411;
+var lng_e400 = -71.205399;
+
 function initialize() {
-  var latlng = new google.maps.LatLng(46.81303, -71.22538);
+  var latlng = new google.maps.LatLng(lat_e400, lng_e400);
 
   var map = new google.maps.Map(document.getElementById("googlemaps-footer"), {
     zoom: 15,
@@ -69,7 +72,7 @@ function initialize_ip() {
 
   // Espace 400e  ##############################################################
 
-  var latlng_e400 = new google.maps.LatLng(46.81303, -71.22538);
+  var latlng_e400 = new google.maps.LatLng(lat_e400, lng_e400);
 
   var map_e400 = new google.maps.Map(document.getElementById("map-espace400"), {
     zoom: 15,

@@ -48,7 +48,7 @@
 							'text' => 'heures de <br>compétition'
 						),
 						array(
-							'number' => '40',
+							'number' => '44',
 							'text' => 'bénévoles'
 						),
 						array(
@@ -77,34 +77,43 @@
     ?>
 
     <div id="conferenciers">
-      <ul class="list-custom list-hori clearfix">
-        <li>
-          <a href="#">
-            <span>Nom Conferencier</span>
-            <img src="<?php echo base_url() ?>assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span>Nom Conferencier</span>
-            <img src="<?php echo base_url() ?>assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span>Nom Conferencier</span>
-            <img src="<?php echo base_url() ?>assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span>Nom Conferencier</span>
-            <img src="<?php echo base_url() ?>assets/img/conferenciers/ph-conferencier.jpg" alt="Nom Conferencier">
-          </a>
-        </li>
+			<ul class="list-custom list-hori clearfix">
+				<?
+					$speakers = array(
+						array(
+							'name' => 'Isabelle Grenier',
+							'slug' => 'isabelle-grenier',
+							'url' => 'http://www.marianik.com/2011/08/17/portrait-de-gestionnaire-de-communaute-isabelle-grenier/'
+						),
+						array(
+							'name' => 'Peter Morville',
+							'slug' => 'peter-morville',
+							'url' => 'http://semanticstudios.com/about/'
+						),
+						array(
+							'name' => 'Rémi Prévost',
+							'slug' => 'remi-prevost',
+							'url' => 'http://exomel.com/'
+						),
+						array(
+							'name' => 'Denis Boudreault',
+							'slug' => 'denis-boudreault',
+							'url' => 'http://accessibiliteweb.com/spip.php?page=detail_membre&id_article=30&id_auteur=5'
+						)					
+					);
+					shuffle($speakers);
+					for ($x=0; $x < 4; $x++) { 
+				?>
+					<li>
+						<a href="<?=$speakers[$x]['url']?>" target="_blank">
+							<span><?=$speakers[$x]['name']?></span>
+							<img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/<?=$speakers[$x]['slug']?>.jpg" alt="<?=$speakers[$x]['name']?>">
+						</a>
+					</li>
+				<? } ?>
 			</ul>
       <div class="btn-more-wrapper">
-				<a<?/* href="#"*/?> style="clear: both;">Consulter toute la programmation</a>
+				<?/*<a href="<?php echo base_url() ?>/programmation" style="clear: both;">Consulter toute la programmation</a>*/?>
       </div>
     </div>
 
