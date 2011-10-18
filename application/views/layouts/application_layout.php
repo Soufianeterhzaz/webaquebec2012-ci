@@ -111,7 +111,7 @@
         <h2 class="t-indent">WAQ</h2>
         <address id="main-address">
           <strong>Adresse de l'événement</strong>
-          <a href="http://maps.google.com/maps?q=100,+Quai+St-Andr%C3%A9,+Qu%C3%A9bec,+Qc&hl=en&ie=UTF8&ll=46.816995,-71.205463&spn=0.017504,0.026693&sll=46.817167,-71.205487&sspn=0.006295,0.006295&layer=c&cbp=12,7.27,,0,2.66&cbll=46.816995,-71.205463&hnear=100+Quai+Saint-Andr%C3%A9,+Qu%C3%A9bec,+G1K+9E6,+Canada&t=m&vpsrc=0&panoid=2XJ6Vj1HXbMg7M-kCcAMsA&z=16">100 rue Quai St-André<br>
+          <a target="_blank" href="http://maps.google.com/maps?q=100,+Quai+St-Andr%C3%A9,+Qu%C3%A9bec,+Qc&hl=en&ie=UTF8&ll=46.816995,-71.205463&spn=0.017504,0.026693&sll=46.817167,-71.205487&sspn=0.006295,0.006295&layer=c&cbp=12,7.27,,0,2.66&cbll=46.816995,-71.205463&hnear=100+Quai+Saint-Andr%C3%A9,+Qu%C3%A9bec,+G1K+9E6,+Canada&t=m&vpsrc=0&panoid=2XJ6Vj1HXbMg7M-kCcAMsA&z=16">100 rue Quai St-André<br>
 					Québec (Qc) G1K 3Y2</a>
         </address>
         <div class="footer-box">
