@@ -469,7 +469,7 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
   ul{
     li{padding-left: 10px; background: url(../img/sprite.png) no-repeat 0 -250px; margin-bottom: 1px;}
     a{font-size: 70%;}
-    a:hover{text-decoration: underline;}
+    a:link:hover{text-decoration: underline;}
   }
 }
 

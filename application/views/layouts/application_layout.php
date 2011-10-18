@@ -63,7 +63,7 @@
           <nav class="top-right">
             <ul class="list-custom list-hori">
               <li><a href="<?php echo base_url() ?>a-propos/">À propos</a></li>
-							<?/*<li><a>Médias</a></li>*/?>
+              <?/*<li><a>Médias</a></li>*/?>
               <li><a href="<?php echo base_url() ?>partenaires/">Partenaires</a></li>
               <li><a href="<?php echo base_url() ?>contact/">Contact</a></li>
             </ul>
@@ -71,7 +71,7 @@
 
           <nav class="menu-princ">
             <ul class="list-custom">
-              <li><a>Horaire et programmation</a></li>
+              <li><a<?/* href="<?php echo base_url() ?>programmation/"*/?>>Horaire et programmation</a></li>
               <li><a href="<?php echo base_url() ?>iron-web/">Compétition Iron Web</a></li>
               <li><a href="<?php echo base_url() ?>informations-pratiques/">Informations pratiques</a></li>
             </ul>
@@ -125,14 +125,14 @@
         <div class="footer-box">
           <ul class="list-custom">
             <li><a href="<?php echo base_url() ?>a-propos/">À propos</a></li>
-            <li><a href="<?php echo base_url() ?>medias/">Médias</a></li>
+						<?/*<li><a href="<?php echo base_url() ?>medias/">Médias</a></li>*/?>
             <li><a href="<?php echo base_url() ?>partenaires/">Partenaires</a></li>
             <li><a href="<?php echo base_url() ?>contact/">Contact</a></li>
           </ul>
         </div>
         <div class="footer-box">
           <ul class="list-custom">
-            <li><a href="<?php echo base_url() ?>programmation/">Horaire et programmation</a></li>
+						<li><a<?/* href="<?php echo base_url() ?>programmation/"*/?>>Horaire et programmation</a></li>
             <li><a href="<?php echo base_url() ?>iron-web/">Compétition Iron Web</a></li>
             <li><a href="<?php echo base_url() ?>informations-pratiques/">Information pratique</a></li>
             <li><a href="<?php echo base_url() ?>inscription/">Inscription</a></li>
