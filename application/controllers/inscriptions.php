@@ -22,6 +22,7 @@ class Inscriptions extends CI_Controller {
 		$this->form_validation->set_rules('urgence_tel', '', 'required');
 		$this->form_validation->set_rules('allergies', '', 'required');
 		$this->form_validation->set_rules('environnement', '', 'required');
+		$this->form_validation->set_rules('fonction', '', 'required');
 		// Validations messages
 		$this->form_validation->set_message('required', 'Ce champ est requis');
 		$this->form_validation->set_message('email', 'Courriel invalide');

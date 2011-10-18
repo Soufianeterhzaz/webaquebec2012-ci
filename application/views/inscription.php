@@ -66,6 +66,13 @@ $this->load->helper('form');
           <input type="radio" id="environnement2" name="environnement" value="autre" <?php echo set_radio('environnement', 'autre'); ?> /><label for="environnement4">Autre</label>
           <?php echo form_error('environnement'); ?>
         </div>
+        <div class="required input text">
+          <label for="nom_complet">Quelle est votre principale fonction de travail?<span class="required">*</span>
+            <span class="sub">(Intégrateur, designer, programmeur ou autre)</span>
+          </label>
+          <?php echo form_input(array('name'=>'fonction', 'value'=>set_value('fonction'))); ?>
+          <?php echo form_error('fonction'); ?>
+        </div>
         <div class="required input">
           <label for="nom_complet">Votre profil (cv)<span class="required">*</a></label>
           <?php echo form_textarea(array('name'=>'profil', 'value'=>set_value('profil'))); ?>
