@@ -244,6 +244,31 @@
   background-clip: padding-box;
 }
 
+@mixin rounded($radius, $side: '')
+{
+	-moz-border#{$side}-radius: $radius;
+	-webkit-border-radius#{$side}: $radius;
+	border#{$side}-radius: $radius;
+}
+
+@mixin shadow($settings)
+{
+	-moz-box-shadow: #{$settings};
+	-webkit-box-shadow: #{$settings};
+	box-shadow: #{$settings};
+}
+
+@mixin vgradient($start, $end, $img: '', $bgcolor: transparent)
+{
+	background: $bgcolor url($img) 0 0 repeat-x;
+	background: -moz-linear-gradient(top, $start 0%, $end 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$start), color-stop(100%,$end));
+	background: -webkit-linear-gradient(top, $start 0%,$end 100%);
+	background: -o-linear-gradient(top, $start 0%,$end 100%);
+	background: -ms-linear-gradient(top, $start 0%,$end 100%);
+	background: linear-gradient(top, $start 0%,$end 100%);
+}
+
 // NON-SEMANTIC HELPER CLASSES
 //---------------------------------------------------
 // ir => image replacement
