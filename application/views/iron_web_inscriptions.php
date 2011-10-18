@@ -5,6 +5,9 @@ $this->load->helper('form');
   <div class="page-content-block clearfix">
     <div class="left-side main">
       <?php $this->load->view('iron_web_voxpop') ?>
+      <div class="btn-more-wrapper">
+        <a href="<?php echo base_url() ?>/iron-web/" target="_blank">Tout sur la compétition</a>
+      </div>
     </div>
     <div class="right-side main">
       <div class="full-width rs-content-box">
