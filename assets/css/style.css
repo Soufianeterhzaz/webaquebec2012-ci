@@ -602,7 +602,7 @@ h3.box-header {
 }
 #newsletter-box form button.btn {
   border: 0;
-  float: right;
+  rfloat: right;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
