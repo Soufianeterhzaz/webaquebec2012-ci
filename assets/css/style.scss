@@ -177,7 +177,7 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 
 #iw-inscriptions .input label
 {
-  display:block;
+	display:block;
 }
 
 #iw-inscriptions input
@@ -189,9 +189,14 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 	border: 1px solid #e1e1e1;
 	margin: 6px 4px;
 	padding: 0;
-	width: 280px;
+	width: 240px;
 }
 
+#iw-inscriptions h2,
+#iw-inscriptions h3
+{
+	clear:both;
+}
 
 #iw-inscriptions textarea
 {
@@ -210,15 +215,48 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 	font-size: 15px;
 }
 
+#iw-inscriptions label .sub
+{
+	display:block;
+	font-size:12px;
+}
 
 #iw-inscriptions label .required
 {
 	color:#292929;
 }
 
+#iw-inscriptions .col
+{
+	position:relative;
+	overflow:hidden;
+	float:left;
+	margin-right:16px;
+	&.last
+	{
+		margin-right:0
+	}
+}
+
 #iw-inscriptions .input
 {
 	margin-bottom: 12px;
+
+	&.short
+	{
+		input
+		{
+			width:50px;
+		}
+	}
+
+	&.medium
+	{
+		input
+		{
+			width:150px;
+		}
+	}
 
 	&.text
 	&.textarea
@@ -264,6 +302,9 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 
 	&.checkbox
 	{
+		padding:10px 0;
+		font-size:14px;
+	
 		input
 		{
 			width: auto;
@@ -272,7 +313,7 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 		label
 		{
 			display: inline-block;
-			padding-left: 14px;
+			padding-left: 4px;
 		}
 	}
 

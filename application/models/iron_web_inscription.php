@@ -1,5 +1,5 @@
 <?php
-class Inscription extends CI_Model {
+class IronWebInscription extends CI_Model {
 
     function __construct()
     {

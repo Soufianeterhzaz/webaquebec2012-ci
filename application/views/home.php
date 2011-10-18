@@ -146,8 +146,8 @@
 
     <div id="newsletter-box">
       <h3>Recevez les dernières nouvelles<span></span></h3>
-      <form name="newsletter" id="newsletter" method="post" action="http://ix.createsend.com/t/y/s/uiluti/" class="clearfix">
-        <input id="email" type="text" name="cm-uiluti-uiluti" placeholder="Votre courriel">
+      <form name="newsletter" id="newsletter" method="post" action="http://webaquebec.createsend.com/t/r/s/akkjhl/" class="clearfix">
+        <input id="email" type="text" name="cm-akkjhl-akkjhl" placeholder="Votre courriel">
         <button id="btn-submit-nl" class="btn">M’abonner</button>
       </form>
     </div>
@@ -163,7 +163,7 @@
     <div class="left-side rs-content-box iron-web">
       <h3 class="box-header">Iron Web</h3>
       <div class="white-thumb">
-        <a class="btn-vox-pop" href="http://vimeo.com/29847338">Retour sur le <strong>le Vox Pop</strong></a>
+        <a class="btn-vox-pop" href="http://vimeo.com/29847338">Retour sur le <strong>IronWeb 2011</strong></a>
       </div>
       <p>Le Iron Web est une compétition de 48 heures, diffusée en direct, par et les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie.</p>
       <div class="btn-more-wrapper">
