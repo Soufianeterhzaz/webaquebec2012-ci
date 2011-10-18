@@ -40,6 +40,7 @@
       <li><img src="<?php echo base_url() ?>/assets/img/partenaires/qcmedia.png" alt="QCmédias"></li>
       <li><img src="<?php echo base_url() ?>/assets/img/partenaires/kronoshori.png" alt="Kronos"></li>
       <li><img src="<?php echo base_url() ?>/assets/img/partenaires/umen.png" alt="UMEN"></li>
+      <li class="last"><img src="<?php echo base_url() ?>/assets/img/partenaires/umen.png" alt="UMEN"></li>
     </ul>
 
   </div>
