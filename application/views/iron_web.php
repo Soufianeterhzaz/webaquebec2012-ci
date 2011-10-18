@@ -9,30 +9,13 @@
       <span class="call-to-action">Soumettez votre candidature</span>
       <span class="date-limite">Date limite: 11 novembre</span>
     </a>
-
+		
   </div>
   <div class="sep-shadow"></div>
   <div class="page-content-block clearfix">
 
-    <?php
-    //############################################################################
-    //  Vox Pop    ###############################################################
-    ?>
-
     <div class="left-side main">
-      <div id="vox-pop" class="white-box rs-content-box">
-        <h3>L’expérience Iron Web 2011</h3>
-        <div class="thumb">
-          <a class="btn-vox-pop" href="http://vimeo.com/29752446">Écoutez<strong>le Vox Pop</strong></a>
-          <img src="<?php echo base_url() ?>assets/img/ph-lc-iw.jpg" alt="Apercu du Vox Pop">
-        </div>
-        <div class="content">
-
-          <p>Que pensent les participants du Iron Web 2011 de leur expérience? Écoutez-les! </p>
-
-        </div>
-      </div>
-
+      <?php $this->load->view('iron_web_voxpop') ?>
       <div id="commenditaires-principaux" class="rs-content-box clearfix">
         <h3 class="box-header">Commanditaires principaux</h3>
         <div class="white-thumb">
@@ -40,7 +23,6 @@
         </div>
         <p>Le WAQ remercie tous les commanditaires du Iron Web, qui rendent la compétition et sa diffusion possible.</p>
       </div>
-
     </div>
 
     <article class="right-side main">
