@@ -444,13 +444,17 @@ h3.box-header {
   background: linear-gradient(top, #f5f5f5 0%, white 100%);
   border: 1px solid #e1e1e1;
   margin: 6px 4px;
-  padding: 0; }
+  padding: 0;
+  width: 70%;
+  height: 200px;
+  color: #838383;
+  font-size: 15px; }
 
 #iw-inscriptions label .required {
   color: #292929; }
 
 #iw-inscriptions .input {
-  margin-bottom: 5px; }
+  margin-bottom: 12px; }
   #iw-inscriptions .input.text input {
     color: #838383;
     font-size: 17px;

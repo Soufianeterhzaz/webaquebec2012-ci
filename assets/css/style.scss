@@ -225,6 +225,12 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 	border: 1px solid #e1e1e1;
 	margin: 6px 4px;
 	padding: 0;
+	width:70%;
+	height:200px;
+	
+	
+	color: #838383;
+	font-size: 15px;
 }
 
 
@@ -235,7 +241,7 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 
 #iw-inscriptions .input
 {
-	margin-bottom: 5px;
+	margin-bottom: 12px;
 
 	&.text
 	{
