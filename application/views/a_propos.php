@@ -58,7 +58,7 @@
     <div class="right-side main">
 
       <div class="full-width rs-content-box">
-        <h3 class="box-header">À propos de l'Iron Web</h3>
+        <h3 class="box-header">À propos</h3>
         <p>Plus que jamais, l’industrie du web brille par son agilité et sa capacité à innover, particulièrement dans la région de Québec. Elle est essentielle au développement et à la productivité des organisations, par son impact sur la promotion, la création, le commerce, la gestion et le partage de l’information. Au cours des 20 dernières années, l’industrie du web et ceux qui le font au quotidien à Québec sont des leviers uniques de développement économique.</p>
         <p>Nous, qui faisons le Web à Québec, croyons donc qu’il est essentiel de faire la promotion de cette industrie et de contribuer à son développement à Québec. C’est sur cette base qu’une trentaine de personnes à titre individuel (entrepreneurs, professionnels, professeurs et étudiants de divers horizons) se sont réunies autour de l’idée de célébrer et de promouvoir «le Web à Québec» par le biais d’un événement annuel rassembleur. Ensemble, avec le soutien de quelques partenaires, nous avons mis en place, en quelques semaines, une première édition qui a remporté un vif succès en février 2010 à l’Hotel Pur. Nous espérons beaucoup de la deuxième édition déjà prévue pour février 2012.</p>
         <p>Cette année, une fois encore, quatre objectifs vont nous permettre de nous dépasser :</p>
