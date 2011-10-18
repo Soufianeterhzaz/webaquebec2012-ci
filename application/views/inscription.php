@@ -26,7 +26,6 @@ $this->load->helper('form');
         </ul>
       </div>
     </div>
-
     <div class="right-side main">
       <div class="full-width rs-content-box">
         <h3 class="box-header">Inscriptions à l'Iron Web</h3>
@@ -34,40 +33,43 @@ $this->load->helper('form');
         <p>Suite à la réception des candidatures, une présélection sera effectuée par le comité du Iron Web et les candidats retenus seront convoqués à une entrevue. Les personnes sélectionnés pour participer seront contactées rapidement après les entrevues. Toutefois, la formation des équipes demeurera inconnue jusqu’au début de la compétition.</p>
         <p>La participation à la compétition est gratuite, mais un dépôt de 50$ sera exigé des candidats sélectionnés pour l’entrevue.</p> 
       </div>
+      <?php if (!$saved): ?>
       <div class="full-width rs-content-box">
         <?php echo form_open('inscriptions/'); ?>
         <h3 class="box-header">Indentification</h3>
         <div class="required input">
           <label for="nom_complet">Nom complet</label>
-          <?php echo form_input('nom_complet'); ?>
+          <?php echo form_input(array('name'=>'nom_complet', 'value'=>set_value('nom_complet'))); ?>
           <?php echo form_error('nom_complet'); ?>
         </div>
         <div class="required input">
           <label for="nom_complet">Courriel</label>
-          <?php echo form_input('courriel'); ?>
+          <?php echo form_input(array('name'=>'courriel', 'value'=>set_value('courriel'))); ?>
           <?php echo form_error('courriel'); ?>
         </div>
         <div class="required input">
           <label for="nom_complet">Téléphone</label>
-          <?php echo form_input('telephone'); ?>
+          <?php echo form_input(array('name'=>'telephone', 'value'=>set_value('telephone'))); ?>
           <?php echo form_error('telephone'); ?>
         </div>
         <div class="required input">
           <label for="nom_complet">Âge</label>
-          <?php echo form_input('age'); ?>
+          <?php echo form_input(array('name'=>'age', 'value'=>set_value('age'))); ?>
           <?php echo form_error('age'); ?>
         </div>
         <div class="required input">
           <label for="nom_complet">Étudiant</label>
-          Oui <?php echo form_radio(array('name'=>'etudiant', 'value'=>'1')); ?>
-          Non <?php echo form_radio(array('name'=>'etudiant', 'value'=>'0')); ?>
+          Oui<input type="radio" name="etudiant" value="0" <?php echo set_radio('etudiant', '0'); ?> />
+          Non<input type="radio" name="etudiant" value="1" <?php echo set_radio('etudiant', '1', TRUE); ?> />
           <?php echo form_error('etudiant'); ?>
         </div>
         <h3 class="box-header">Profil</h3>
         <h3 class="box-header">Informations de santé et d'urgence</h3>
-        <?php echo form_submit('mysubmit', 'Envoyer ma candidature');	?>        
-
+        <input type="submit" value="Envoyer ma candidature" />
       </div>
+      <?php else: ?>
+        <p>Merci!</p>
+      <?php endif ?>
     </div>
 
   </div>
