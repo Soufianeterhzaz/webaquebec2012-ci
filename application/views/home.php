@@ -31,22 +31,43 @@
     //  Important Numbers    #####################################################
     ?>
 
-    <div id="important-numbers">
+		<div id="important-numbers">
+			<? /* ?>
       <a id="btn-precedent" class="btn-nav" href="#"><span>Précédent</span></a>
       <a id="btn-suivant" class="btn-nav" href="#"><span>Suivant</span></a>
-      <ul id="numbers-viewport" class="list-custom list-hori clearfix">
-        <li>
-          <span class="number">30</span>
-          <h2>Conférenciers du<br>Québec</h2>
-        </li>
-        <li>
-          <span class="number">40</span>
-          <h2>Bénévoles</h2>
-        </li>
-        <li>
-          <span class="number">48</span>
-          <h2>Heures de<br>compétitions</h2>
-        </li>
+			<? */ ?>
+			<ul id="numbers-viewport" class="list-custom list-hori clearfix">
+				<?
+					$featured = array(
+						array(
+							'number' => '30',
+							'text' => 'conférenciers du <br>Québec'
+						),
+						array(
+							'number' => '48',
+							'text' => 'heures de <br>compétition'
+						),
+						array(
+							'number' => '40',
+							'text' => 'bénévoles'
+						),
+						array(
+							'number' => '500',
+							'text' => 'participants'
+						),
+						array(
+							'number' => '3',
+							'text' => 'soirées thématiques'
+						)
+					);
+					shuffle($featured);
+					for ($x=0; $x < 3; $x++) { 
+					?>
+					<li>
+						<span class="number"><?=$featured[$x]['number']?></span>
+						<h2><?=$featured[$x]['text']?></h2>
+					</li>
+					<? } ?>
       </ul>
     </div>
 
@@ -105,19 +126,19 @@
         <li>
           <h4>Qu’est-ce que le Web à Québec, pour vous?</h4>
           <p>
-					Les membres du WAQ se prononcent sur Twitter. Participez à la conversation! #WAQ2012<?//<a href="#">Lire plus</a>?>
+          Les membres du WAQ se prononcent sur Twitter. Participez à la conversation! #WAQ2012<?//<a href="#">Lire plus</a>?>
           </p>
         </li>
         <li>
           <h4>Les inscriptions au Iron Web sont ouvertes</h4>
           <p>
-					Posez votre candidature aujourd’hui pour vivre une expérience inoubliable!<?//<a href="#">Lire plus</a>?>
+          Posez votre candidature aujourd’hui pour vivre une expérience inoubliable!<?//<a href="#">Lire plus</a>?>
           </p>
         </li>
         <li>
           <h4>Devenez commanditaire du WAQ 2012</h4>
           <p>
-					Près de 25 opportunités de commandites sont offertes. Une belle occasion de vous associer au Web à Québec. Nous sommes aussi à la recherche de commanditaires de services (nourriture, mobilier, etc.) ainsi que de partenaires médias.<?//<a href="#">Lire plus</a>?>
+          Près de 25 opportunités de commandites sont offertes. Une belle occasion de vous associer au Web à Québec. Nous sommes aussi à la recherche de commanditaires de services (nourriture, mobilier, etc.) ainsi que de partenaires médias.<?//<a href="#">Lire plus</a>?>
           </p>
         </li>
       </ul>
