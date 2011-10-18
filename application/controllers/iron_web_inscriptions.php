@@ -1,13 +1,12 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class IronWebInscriptions extends CI_Controller {
+class Iron_Web_Inscriptions extends CI_Controller {
 
 	public function index() {
 		$data = array(
 		  'title' => 'Inscription au l\'Iron Web 2012',
 			'view_data'=>array()
 		);
-		$this->load->model('IronWebInscription');
 		$this->load->library('form_validation');
 		// Validations rukes
 		$this->form_validation->set_rules('nom_complet', 'Nom complet', 'required');
