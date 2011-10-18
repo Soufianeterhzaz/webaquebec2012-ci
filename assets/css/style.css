@@ -349,7 +349,7 @@ nav.top-right ul li {
   font-family: MisoLight;
   margin-left: 10px;
 }
-nav.top-right ul li a:hover {
+nav.top-right ul li a:link:hover {
   text-decoration: underline;
 }
 
@@ -360,6 +360,12 @@ nav.menu-princ ul li {
   margin-bottom: 3px;
 }
 nav.menu-princ ul li a {
+  background: #0078a6;
+}
+nav.menu-princ ul li a:link {
+  background: #006d96;
+}
+nav.menu-princ ul li a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -367,7 +373,6 @@ nav.menu-princ ul li a {
   -moz-background-clip: padding;
   background-clip: padding-box;
   display: block;
-  background: #006d96;
   padding: 3px 10px;
   font-size: 130%;
   font-family: MisoRegular;
@@ -376,7 +381,7 @@ nav.menu-princ ul li a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
 }
-nav.menu-princ ul li a:hover {
+nav.menu-princ ul li a:link:hover {
   background: #0078a6;
 }
 
@@ -460,7 +465,7 @@ h3.box-header {
 }
 #btn-candidature .call-to-action {
   font-family: MisoLight;
-  font-size: 150%;
+  font-size: 120%;
 }
 #btn-candidature .date-limite {
   font-size: 90%;

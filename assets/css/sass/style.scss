@@ -124,13 +124,15 @@ header .wrapper{position: relative; padding: 50px 0 0 0;}
 
 nav.top-right{position: absolute; top: 10px; right: 0;
   ul li{font-family: MisoLight; @extend .to-caps; margin-left: 10px;}
-  ul li a:hover{text-decoration: underline;}
+  ul li a:link:hover{text-decoration: underline;}
 }
 
 nav.menu-princ{float: right;
   ul li{ margin-bottom: 3px;
-    a{@include border-radius(5px); display: block; background: $main-blue-10; padding: 3px 10px; @extend .to-caps; font-size: 130%; font-family: MisoRegular; text-shadow: 0 -1px $main-blue-20; @include transition(all 0.2s ease-in-out);}
-    a:hover{background: $main-blue-5;}
+    a{background: $main-blue-5;}
+    a:link{background: $main-blue-10;}
+    a{@include border-radius(5px); display: block; padding: 3px 10px; @extend .to-caps; font-size: 130%; font-family: MisoRegular; text-shadow: 0 -1px $main-blue-20; @include transition(all 0.2s ease-in-out);}
+    a:link:hover{background: $main-blue-5;}
   }
 }
 
