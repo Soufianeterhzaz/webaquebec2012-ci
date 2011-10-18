@@ -18,8 +18,8 @@
       </div>
       <ul class="social-bar list-custom list-hori clearfix">
         <li><span>Suivez-nous</span></li>
-        <li><a class="btn-facebook" href="#" title="Suivez-nous sur Facebook">Facebook</a></li>
-        <li><a class="btn-twitter" href="#" title="Suivex-nous sur Twitter">Twitter</a></li>
+        <li><a class="btn-facebook" href="https://www.facebook.com/webaquebec" title="Suivez-nous sur Facebook">Facebook</a></li>
+        <li><a class="btn-twitter" href="https://twitter.com/webaquebec" title="Suivex-nous sur Twitter">Twitter</a></li>
       </ul>
     </div>
   </div>
