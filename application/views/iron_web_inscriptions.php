@@ -5,6 +5,9 @@ $this->load->helper('form');
   <div class="page-content-block clearfix">
     <div class="left-side main">
       <?php $this->load->view('iron_web_voxpop') ?>
+      <div class="btn-more-wrapper">
+        <a href="<?php echo base_url() ?>/iron-web/" target="_blank">Tout sur la compétition</a>
+      </div>
     </div>
     <div class="right-side main">
       <div class="full-width rs-content-box">
@@ -15,7 +18,7 @@ $this->load->helper('form');
       </div>
       <?php if (!$saved): ?>
       <div id="iw-inscriptions" class="full-width rs-content-box">
-        <?php echo form_open('inscriptions/'); ?>
+        <?php echo form_open('iron-web-inscriptions'); ?>
         <h3 class="box-header">Indentification</h3>
         <div class="col">
           <div class="required input text">
@@ -126,7 +129,7 @@ $this->load->helper('form');
       <?php else: ?>
         <h3 class="box-header">Inscription complétée</h3>
         <div class="rs-content-box">
-          <p>Merci! Nous vous contacterons à <?php echo $_POST['courriel'] ?> après le 11 novembre.
+          <p>Merci! Nous vous communiquerons avec vous à <?php echo $_POST['courriel'] ?> après le 11 novembre.
           <p>Bonne chance!</p>
         </div>
       <?php endif ?>
