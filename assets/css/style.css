@@ -1,7 +1,7 @@
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp,
+small, sub, sup, var, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
@@ -119,6 +119,13 @@ time, mark, audio, video {
 
 .right-side.main {
   width: 600px;
+}
+.right-side.main h1 {
+  font-size: 250%;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #4cabcf;
+  font-family: MisoLight;
 }
 
 .ros-wrapper .right-side.main, .ip-wrapper .right-side.main {
@@ -769,7 +776,7 @@ h3.box-header {
 .rs-content-box {
   margin-bottom: 40px;
 }
-.rs-content-box p, .rs-content-box ul li {
+.rs-content-box p, .rs-content-box ul li, .rs-content-box address {
   font-size: 80%;
   margin-bottom: 15px;
 }
