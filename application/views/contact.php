@@ -7,7 +7,6 @@
     ?>
 
     <div class="left-side main">
-      <?php $this->load->view('iron_web_voxpop') ?>
       <?php $this->load->view('news_box') ?>
       <?php $this->load->view('newsletter_box') ?>
     </div>
