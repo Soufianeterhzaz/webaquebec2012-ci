@@ -200,7 +200,7 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 
 #btn-candidature{position: absolute; top: 20px; right: 0; display: block; padding: 10px; @include border-radius(5px); @extend .light-white-gradient; @include box-shadow(0 3px 3px rgba(#000, 0.2)); width: 270px; text-align: center; @include transition(all 0.2s ease-in-out);
   span{display: block;}
-  .call-to-action{font-family: MisoRegular; font-size: 150%; @extend .to-caps; color: $main-blue-10;}
+  .call-to-action{font-family: MisoRegular; font-size: 150%; @extend .to-caps; color: #000000;}
   .date-limite{font-size: 100%; font-family: MisoBold; @extend .to-caps; color: $main-blue-10;}
 }
 #btn-candidature:hover{top: 17px; @include box-shadow(0 5px 7px rgba(#000, 0.1));}

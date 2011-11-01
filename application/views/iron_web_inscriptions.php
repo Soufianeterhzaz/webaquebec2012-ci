@@ -12,8 +12,8 @@ $this->load->helper('form');
     <div class="right-side main">
       <div class="full-width rs-content-box">
         <h3 class="box-header">Inscription au Iron Web 2012</h3>
-        <p>La période d’appel de candidatures pour le Iron Web débute le 18 octobre et se termine le 11 novembre 2011.</p>
-        <p>Suite à la réception des candidatures, une présélection sera effectuée par le comité du Iron Web et les candidats retenus seront convoqués à une entrevue. Les personnes sélectionnés pour participer seront contactées rapidement après les entrevues. Toutefois, la formation des équipes demeurera inconnue jusqu’au début de la compétition.</p>
+        <p>La période d’appel de candidatures pour le Iron Web débute le 18 octobre et se termine le 1 décembre 2011.</p>
+        <p>Suite à la réception des candidatures, une présélection sera effectuée par le comité du Iron Web et les candidats retenus seront convoqués à une entrevue en décembre. Les personnes sélectionnés pour participer seront contactées rapidement après les entrevues. Toutefois, la formation des équipes demeurera inconnue jusqu’au début de la compétition.</p>
         <p>La participation à la compétition est gratuite, mais un dépôt de 50$ sera exigé des candidats sélectionnés pour l’entrevue.</p> 
         <p>Vous avez des questions? Contactez <a href="mailto:ironweb@webaquebec.org">ironweb@webaquebec.org</a></p>
       </div>
@@ -114,7 +114,7 @@ $this->load->helper('form');
       <?php else: ?>
         <h3 class="box-header">Inscription complétée</h3>
         <div class="rs-content-box">
-          <p>Merci! Nous communiquerons avec vous à <?php echo $_POST['courriel'] ?> après le 11 novembre.
+          <p>Merci! Nous communiquerons avec vous à <?php echo $_POST['courriel'] ?> après la fermeture des inscriptions.
           <p>Bonne chance!</p>
         </div>
       <?php endif ?>
