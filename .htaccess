@@ -1,12 +1,4 @@
 AddDefaultCharset UTF-8
-# MDP {{{
-
-AuthUserFile /home/webaquebecorg/dev.webaquebec.org/.htpasswd
-AuthName "WAQ"
-AuthType Basic
-Require valid-user
-
-# }}}
 
 # Apache configuration file
 # httpd.apache.org/docs/2.2/mod/quickreference.html
@@ -230,10 +222,15 @@ AddCharset utf-8 .html .css .js .json
 <IfModule mod_rewrite.c>
 
 # Prod setting
-#RewriteBase /
+RewriteBase /
 
 # Dev setting
 #RewriteBase /webaquebec
+
+
+# Redirect pour l'ancienne URL du IronWeb
+RewriteRule ^ironweb/?$ iron-web [L,R=301]
+Redirect /iron-web-live/ /iron-web/
 
 Options +FollowSymLinks
  

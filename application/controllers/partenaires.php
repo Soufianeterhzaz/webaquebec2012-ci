@@ -3,7 +3,7 @@
 class Partenaires extends CI_Controller {
 
 	public function index() {
-	  $data = array('title' => 'Contact');
+		$data = array('title' => 'Partenaires');
 		$this->my_controller->load_view('partenaires', $data);
 	}
 }

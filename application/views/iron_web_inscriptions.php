@@ -6,7 +6,7 @@ $this->load->helper('form');
     <div class="left-side main">
       <?php $this->load->view('iron_web_voxpop') ?>
       <div class="btn-more-wrapper">
-        <a href="<?php echo base_url() ?>iron-web/" target="_blank">Tout sur la compétition</a>
+        <a href="<?php echo base_url() ?>iron-web/">Tout sur la compétition</a>
       </div>
     </div>
     <div class="right-side main">
@@ -15,11 +15,12 @@ $this->load->helper('form');
         <p>La période d’appel de candidatures pour le Iron Web débute le 18 octobre et se termine le 11 novembre 2011.</p>
         <p>Suite à la réception des candidatures, une présélection sera effectuée par le comité du Iron Web et les candidats retenus seront convoqués à une entrevue. Les personnes sélectionnés pour participer seront contactées rapidement après les entrevues. Toutefois, la formation des équipes demeurera inconnue jusqu’au début de la compétition.</p>
         <p>La participation à la compétition est gratuite, mais un dépôt de 50$ sera exigé des candidats sélectionnés pour l’entrevue.</p> 
+        <p>Vous avez des questions? Contactez <a href="mailto:ironweb@webaquebec.org">ironweb@webaquebec.org</a></p>
       </div>
       <?php if (!$saved): ?>
       <div id="iw-inscriptions" class="full-width rs-content-box">
         <?php echo form_open('iron-web-inscriptions'); ?>
-        <h3 class="box-header">Indentification</h3>
+        <h3 class="box-header">Identification</h3>
         <div class="col">
           <div class="required input text">
             <label for="nom_complet">Nom complet<span class="required">*</span></label>

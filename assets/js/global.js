@@ -195,6 +195,8 @@ function initialize_ip() {
   });
   marker_pr.setMap(map_pr);
 
+  /*}}}*/
+
 }
 
 $(function(){
@@ -202,11 +204,30 @@ $(function(){
 
   if($('.ip-wrapper').length > 0){initialize_ip();}
 
-  $('.white-thumb .logo-partenaires').each(function(){
-    $(this).css({
-      left: ($(this).parent().width() - $(this).outerWidth()) / 2,
-      top: ($(this).parent().height() - $(this).outerHeight()) / 2
-    });
+  var $commanditairesPrincipaux = $('#commanditaires-principaux');
+
+  var nextIndex = 1,
+      totalCount = $commanditairesPrincipaux.find('a').length;
+
+  $commanditairesPrincipaux.each(function(index, elem){
+    var $this = $(elem),
+        $current = $this.find('a:first-child');
+
+    $current.siblings().hide();
+    crossfade($this.find('a:eq(' + nextIndex + ')'));
   });
+
+  function crossfade($elem) {
+    $elem.siblings().css('z-index',10); 
+    $elem.delay(4000).css('z-index',15).fadeIn(
+      700,
+      function() {
+        $elem.siblings().hide();
+        nextIndex = (nextIndex < (totalCount-1)) ? nextIndex + 1 : 0;
+        crossfade($commanditairesPrincipaux.find('a:eq(' + nextIndex + ')'));
+      }
+    );
+  }
+
 });
 
