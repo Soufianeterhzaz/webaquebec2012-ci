@@ -223,8 +223,8 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 #iw-inscriptions .text input,
 #iw-inscriptions .submit input
 {
-	@include rounded(4px);
-	@include shadow('0 0 0 3px #fff, 0 0 0 4px #f0f0f0');
+	@include rounded(2px);
+	@include shadow('0 0 0 2px #fff, 0 0 0 3px #f0f0f0');
 	@include vgradient(#f5f5f5, #fff, '', #fafafa);
 
 	border: 1px solid #e1e1e1;
@@ -249,11 +249,11 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 	margin: 6px 4px;
 	padding: 0;
 	width:70%;
-	height:200px;
+	height:140px;
 	
 	
 	color: #838383;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 #iw-inscriptions label .sub
@@ -305,9 +305,9 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 		input
 		{
 			color: #838383;
-			font-size: 17px;
-			height: 35px;
-			line-height: 35px;
+			font-size: 13px;
+			height: 26px;
+			line-height: 26px;
 			text-indent: 5px;
 		}
 

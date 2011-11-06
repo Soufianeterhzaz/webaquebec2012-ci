@@ -3,10 +3,18 @@ $this->load->helper('form');
 ?>
 <div class="ros-wrapper">
   <div class="page-content-block clearfix">
-    <div class="left-side main">
-      <?php $this->load->view('iron_web_voxpop') ?>
+    <div class="left-side rs-content-box main liste-reglements">
+      <h3 class="box-header">Règlements clés</h3>
+      <ul class="list-custom">
+        <li>Ouvert à tous les adultes (professionnels ou étudiants) pouvant participer à la conception, réalisation et production d’un projet Web</li>
+        <li>Vous ne pourrez quitter le lieu de compétition</li>
+        <li>Nourriture, breuvages, bureau, chaise, internet et espace repos vous seront fournis</li>
+        <li>Vous serez filmés (sauf dans l’aire de repos)</li>
+        <li>Vous devez apporter votre ordinateur</li>
+        <li>Vous devez utiliser des solutions libres de droits</li>
+      </ul>
       <div class="btn-more-wrapper">
-        <a href="<?php echo base_url() ?>iron-web/">Tout sur la compétition</a>
+        <a href="<?php echo base_url() ?>/assets/reglements-ironweb-2012.pdf" target="_blank">Téléchargez les règlements complets</a>
       </div>
     </div>
     <div class="right-side main">
@@ -62,14 +70,6 @@ $this->load->helper('form');
           </div>
         </div>
         <h3 class="box-header">Profil</h3>
-        <label for="etudiant">Quel est votre principal environnement de travail?<span class="required">*</span></label>
-        <div class="required input checkbox">
-          <input type="radio" id="environnement1" name="environnement" value="windows" <?php echo set_radio('environnement', 'windows'); ?> /><label for="environnement1">Windows</label>
-          <input type="radio" id="environnement2" name="environnement" value="osx" <?php echo set_radio('environnement', 'osx'); ?> /><label for="environnement2">OS X</label>
-          <input type="radio" id="environnement2" name="environnement" value="linux" <?php echo set_radio('environnement', 'linux'); ?> /><label for="environnement3">Linux</label>
-          <input type="radio" id="environnement2" name="environnement" value="autre" <?php echo set_radio('environnement', 'autre'); ?> /><label for="environnement4">Autre</label>
-          <?php echo form_error('environnement'); ?>
-        </div>
         <div class="required input text">
           <label for="nom_complet">Quelle est votre principale fonction de travail?<span class="required">*</span>
             <span class="sub">(Intégrateur, designer, programmeur ou autre)</span>
@@ -77,20 +77,15 @@ $this->load->helper('form');
           <?php echo form_input(array('name'=>'fonction', 'value'=>set_value('fonction'))); ?>
           <?php echo form_error('fonction'); ?>
         </div>
-        <div class="required input">
-          <label for="nom_complet">Votre profil (cv)<span class="required">*</a></label>
-          <?php echo form_textarea(array('name'=>'profil', 'value'=>set_value('profil'))); ?>
-          <?php echo form_error('profil'); ?>
-        </div>
         <div class="required input text">
-          <label for="nom_complet">Profil LinkedIn</label>
+          <label for="linkedin">Profil LinkedIn</label>
           <?php echo form_input(array('name'=>'linkedin', 'value'=>set_value('linkedin'))); ?>
           <?php echo form_error('linkedin'); ?>
         </div>
-        <div class="required input text medium">
-          <label for="nom_complet">Nom d'utilisateur Twitter</label>
-          <?php echo form_input(array('name'=>'twitter', 'value'=>set_value('twitter'))); ?>
-          <?php echo form_error('twitter'); ?>
+        <div class="required input">
+          <label for="nom_complet">Votre profil professionnel<span class="required">*</a></label>
+          <?php echo form_textarea(array('name'=>'profil', 'value'=>set_value('profil'))); ?>
+          <?php echo form_error('profil'); ?>
         </div>
         <div class="required input">
           <label for="nom_complet">Pourquoi souhaitez vous participer au Iron Web?<span class="required">*</a></label>
@@ -98,7 +93,7 @@ $this->load->helper('form');
           <?php echo form_error('question1'); ?>
         </div>
         <div class="required input">
-          <label for="nom_complet">Vos 3 meilleurs projets et pourquoi<span class="required">*</a></label>
+          <label for="nom_complet">Vos 3 meilleurs projets<span class="required">*</a></label>
           <?php echo form_textarea(array('name'=>'question2', 'value'=>set_value('question2'))); ?>
           <?php echo form_error('question2'); ?>
         </div>
@@ -106,6 +101,13 @@ $this->load->helper('form');
           <label for="nom_complet">Naturellement, quel rôle jouez vous dans une équipe?<span class="required">*</a></label>
           <?php echo form_textarea(array('name'=>'question3', 'value'=>set_value('question3'))); ?>
           <?php echo form_error('question3'); ?>
+        </div>
+        <label for="etudiant">Quel est votre principal environnement de travail?<span class="required">*</span></label>
+        <div class="required input checkbox">
+          <input type="radio" id="environnement1" name="environnement" value="windows" <?php echo set_radio('environnement', 'windows'); ?> /><label for="environnement1">Windows</label>
+          <input type="radio" id="environnement2" name="environnement" value="osx" <?php echo set_radio('environnement', 'osx'); ?> /><label for="environnement2">OS X</label>
+          <input type="radio" id="environnement2" name="environnement" value="linux" <?php echo set_radio('environnement', 'linux'); ?> /><label for="environnement3">Linux</label>
+          <?php echo form_error('environnement'); ?>
         </div>
         <div class="input submit">
           <input type="submit" value="Envoyer ma candidature" />
