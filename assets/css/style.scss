@@ -198,11 +198,127 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
   span{position: absolute; bottom: 5px; left: 113px; font-family: MisoLight; font-size: 90%;}
 }
 
-#btn-candidature{position: absolute; top: 20px; right: 0; display: block; padding: 10px; @include border-radius(5px); @extend .light-white-gradient; @include box-shadow(0 3px 3px rgba(#000, 0.2)); width: 270px; text-align: center; @include transition(all 0.2s ease-in-out);
-  span{display: block;}
-  .call-to-action{font-family: MisoRegular; font-size: 150%; @extend .to-caps; color: #000000;}
-  .date-limite{font-size: 100%; font-family: MisoBold; @extend .to-caps; color: $main-blue-10;}
+#btn-candidature
+{
+  position: absolute; 
+  top: 20px; 
+  right: 0; 
+  display: block; 
+  padding: 10px; 
+  @include border-radius(5px); 
+  @extend .light-white-gradient; 
+  @include box-shadow(0 3px 3px rgba(#000, 0.2)); 
+  width: 270px; 
+  text-align: center; 
+  @include transition(all 0.2s ease-in-out);
+  
+  span
+  {
+    display: block;
+  }
+  .call-to-action{
+    font-family: MisoRegular; 
+    font-size: 150%; 
+    @extend .to-caps; 
+    color: #000000;
+  }
+  .date-limite{
+    font-size: 100%; 
+    font-family: MisoBold; 
+    @extend .to-caps; 
+    color: 
+    $main-blue-10;
+  }
 }
+
+#iw-avantages
+{
+
+  width:370px;
+  float:left;
+  li
+  {
+    line-height:20px;
+  }
+}
+
+#iw-temoignages 
+{
+  width:590px;
+  float:left;
+  ul
+  {
+    position:relative;
+    list-style-type:none;
+    display:block;
+    width:376px;
+    float:left;
+  }
+  li
+  {
+    background:none;
+    padding-left:0;
+    display:block;
+    position:relative;
+    overflow:hidden;
+    img
+    {
+      float:left;
+      display:block;
+      width:55px;
+    }
+    .bubble
+    {
+      position:absolute;
+      left:67px;
+      top:0;
+      width:302px;
+      z-index:-1;
+      background:#000000;
+      opacity:0.3;
+      height:55px;
+      @include border-radius(4px); 
+    }
+    .quote
+    {
+      height:55px;
+      background:url(../img/ironweb/bubble_arrow.png) no-repeat 0 20px;
+      margin-left:5px;
+      float:left;
+      width:302px;
+      .resume
+      {
+        padding:4px 0 0 12px;
+        font-size:13px;
+        margin-bottom:4px
+      }
+      .who
+      {
+        padding:0 0 0 12px;
+        font-size:11px;
+      }
+    }
+  }
+  .video
+  {
+    float:left;
+    width:214px;
+    position:relative;
+    img
+    {
+      width:214px;
+      @include border-radius(4px); 
+    }
+    .btn-vox-pop
+    {
+      font-size:100%;
+      padiding:6px 6px 6px 50px;
+      top:40px;
+      left:24px;
+    }
+  }
+}
+
 #btn-candidature:hover{top: 17px; @include box-shadow(0 5px 7px rgba(#000, 0.1));}
 
 //#########################################
