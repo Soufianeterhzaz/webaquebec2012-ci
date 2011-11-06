@@ -191,20 +191,36 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 //#########################################
 //   Iron Web Header     ##################
 
-#iw-header{position: relative;}
+#iw-header{
+  position: relative;
+  .rs-content-box
+  {
+    margin-bottom:20px;
+  }
+}
 
-#logo-iw{position: relative;
-  h1{height: 102px; width: 361px; background: url(../img/logo-ironweb.png) no-repeat;}
-  span{position: absolute; bottom: 5px; left: 113px; font-family: MisoLight; font-size: 90%;}
+#logo-iw{
+  position: relative;
+  margin-bottom:10px;
+  h1{
+    height: 102px; 
+    width: 361px; 
+    background: url(../img/logo-ironweb.png) no-repeat;
+  }
+  span{
+    position: absolute; 
+    bottom: 5px; 
+    left: 113px; 
+    font-family: MisoLight; 
+    font-size: 90%;
+  }
 }
 
 #btn-candidature
 {
-  position: absolute; 
-  top: 20px; 
-  right: 0; 
   display: block; 
   padding: 10px; 
+  margin-bottom:20px;
   @include border-radius(5px); 
   @extend .light-white-gradient; 
   @include box-shadow(0 3px 3px rgba(#000, 0.2)); 
@@ -220,14 +236,13 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
     font-family: MisoRegular; 
     font-size: 150%; 
     @extend .to-caps; 
-    color: #000000;
+    color: $main-blue-20;
   }
   .date-limite{
     font-size: 100%; 
     font-family: MisoBold; 
     @extend .to-caps; 
-    color: 
-    $main-blue-10;
+    color: $main-blue-10;
   }
 }
 
