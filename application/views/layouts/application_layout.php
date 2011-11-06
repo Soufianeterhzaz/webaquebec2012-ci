@@ -12,22 +12,6 @@
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" />
 
-    <?php if (ENVIRONMENT == 'production'): ?>
-    <script>
-    /*
-      TODO CHANGE GA ACCOUNT ID
-    */
-    var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'XXXXXXXXXXXXXXXXXXXXXX']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-          var ga = document.createElement('script'); ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-    <?php endif ?>
-
     <script src="<?php echo base_url(); ?>assets/js/libs/modernizr-html5-shim.js"></script>
   
 </head>
