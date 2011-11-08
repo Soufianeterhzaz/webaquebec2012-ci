@@ -7,7 +7,7 @@
       </div>
     
       <div class="rs-content-box">
-        <p>Le Iron Web est une compétition “Web réalité” pour les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie. Confinés à l’Espace 400e Bell pendant 48 heures, les participants devront concevoir un site Web rien de moins qu’extraordinaire. Une réalisation qui épatera le jury et le public, mais surtout, qui permettra à Québec de rayonner comme joueur important du Web au Québec et même dans le monde entier!</p>
+        <p>Le Iron Web est une compétition “Web réalité” pour les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie. Confinés à l’Espace 400<sup>e</sup> Bell pendant 48 heures, les participants devront concevoir un site Web rien de moins qu’extraordinaire. Une réalisation qui épatera le jury et le public, mais surtout, qui permettra à Québec de rayonner comme joueur important du Web au Québec et même dans le monde entier!</p>
       </div>
       
       <div class="clearfix"></div>
@@ -15,15 +15,37 @@
         <span class="call-to-action">Soumettre votre candidature</span>
         <span class="date-limite">Date limite: 1 décembre</span>
       </a>
-    </div>
+    </div>      
+    <div id="iw-slideshow">
+      <div class="fadein">
+        <div class="slide">
+          <img src="<?php echo base_url() ?>/assets/img/ironweb/slide1.jpg">
+          <div class="title">Jour 1</div>
+          <div class="sub-title">Découvrez votre équipe</div>
+          <div class="caption">Les caméras tournent, formation des équipes, planification du projet.</div>
+        </div>
+        <div class="slide">
+          <img src="<?php echo base_url() ?>/assets/img/ironweb/slide2.jpg">
+          <div class="title">Jour 2</div>
+          <div class="sub-title">Concentration!</div>
+          <div class="caption">C'est le temps de tout donner, tirer le maximum et le meilleur de chacun.</div>
+        </div>
+        <div class="slide">
+          <img src="<?php echo base_url() ?>/assets/img/ironweb/slide3.jpg">
+          <div class="title">Jour 3</div>
+          <div class="sub-title">Présentez votre projet au public</div>
+          <div class="caption">Présentation des projets, vote du publique, délibérations du jury, annonce des gagnants.</div>
+        </div>
+      </div>
+    </div>      
     <div class="clearfix"></div>
     <div class="sep-shadow"></div>
     <div id="iw-avantages" class="rs-content-box">
       <h3 class="box-header">Participer c'est</h3>
       <ul class="list-custom">
-        <li>Du réseautage avec des professionnels reconnus</li>
         <li>Une occasion d'apprentissage hors-pair</li>
         <li>Participez à une conférence de votre choix durant le WAQ</li>
+        <li>Du réseautage avec des professionnels reconnus</li>
         <li>Une visibilité accru auprès de 500 personnes</li>
         <li>Vous voir sur internet pendant 48 heures</li>
         <li>Sortir de votre zone de confort!</li>
@@ -32,14 +54,6 @@
     <div id="iw-temoignages" class="rs-content-box">
       <h3 class="box-header">Témoignages</h3>
       <ul>
-        <li>
-          <img src="<?php echo base_url() ?>/assets/img/ironweb/martin.png" />
-          <div class="quote">
-            <div class="bubble"></div>
-            <div class="resume">Pour tous ceux qui trip sur la techno et le web,<br/> c'est un must!</div>
-            <div class="who">Martin Ouellet, participant 2011</div>
-          </div>
-        </li>
         <li>
           <img src="<?php echo base_url() ?>/assets/img/ironweb/joannie.png" />
           <div class="quote">
@@ -54,6 +68,14 @@
             <div class="bubble"></div>
             <div class="resume">Ça a débouché sur mon emploi actuel.</div>
             <div class="who">Jean-Francois Frenette, étudiant à l'édition 2011</div>
+          </div>
+        </li>
+        <li>
+          <img src="<?php echo base_url() ?>/assets/img/ironweb/martin.png" />
+          <div class="quote">
+            <div class="bubble"></div>
+            <div class="resume">Pour tous ceux qui trip sur la techno et le web,<br/> c'est un must!</div>
+            <div class="who">Martin Ouellet, participant 2011</div>
           </div>
         </li>
       </ul>

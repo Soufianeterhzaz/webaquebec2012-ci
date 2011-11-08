@@ -246,6 +246,56 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
   }
 }
 
+#iw-slideshow
+{
+  position:relative;
+  float:right;
+  width:570px;
+  .fadein {
+    position:relative; 
+    width:570px;
+    height:332px;
+    .slide 
+    { 
+      border: 5px solid $main-xlight-gray;
+      @include border-radius(3px);
+      position:absolute; 
+      left:0; 
+      top:0;
+      height:342px;
+      width:570px;
+      img,
+      div
+      {
+        position:absolute;
+      }
+      .title
+      {
+        top:0;
+        font-size:30px;
+        padding:12px;
+      }
+      .sub-title
+      {
+        top:34px;
+        padding:12px;
+        font-size:18px;
+      }
+      .caption
+      {
+        bottom:0;
+        left:0;
+        width:572px;
+        font-size:12px;
+        padding:8px 12px;
+      }
+      img
+      {      
+      }
+    }
+  }
+}
+
 #iw-avantages
 {
 
