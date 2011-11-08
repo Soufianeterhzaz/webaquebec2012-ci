@@ -43,10 +43,10 @@
     <div id="iw-avantages" class="rs-content-box">
       <h3 class="box-header">Participer c'est</h3>
       <ul class="list-custom">
-        <li>Une occasion d'apprentissage hors-pair</li>
+        <li>Une occasion d'apprentissage hors pair</li>
         <li>Participez à une conférence de votre choix durant le WAQ</li>
         <li>Du réseautage avec des professionnels reconnus</li>
-        <li>Une visibilité accru auprès de 500 personnes</li>
+        <li>Une visibilité accrue auprès de 500 personnes</li>
         <li>Vous voir sur internet pendant 48 heures</li>
         <li>Sortir de votre zone de confort!</li>
       </ul>
@@ -67,7 +67,7 @@
           <div class="quote">
             <div class="bubble"></div>
             <div class="resume">Ça a débouché sur mon emploi actuel.</div>
-            <div class="who">Jean-Francois Frenette, étudiant à l'édition 2011</div>
+            <div class="who">Jean-François Frenette, étudiant à l'édition 2011</div>
           </div>
         </li>
         <li>
