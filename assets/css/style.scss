@@ -193,25 +193,28 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 
 #iw-header{
   position: relative;
+  margin-right:18px;
   .rs-content-box
   {
     margin-bottom:20px;
+    width:330px;
   }
 }
 
 #logo-iw{
   position: relative;
   margin-bottom:10px;
-  h1{
-    height: 102px; 
-    width: 361px; 
+  h1
+  {
+    height: 102px;
+    width: 361px;
     background: url(../img/logo-ironweb.png) no-repeat;
   }
   span{
-    position: absolute; 
-    bottom: 5px; 
-    left: 113px; 
-    font-family: MisoLight; 
+    position: absolute;
+    bottom: 5px;
+    left: 113px;
+    font-family: MisoLight;
     font-size: 90%;
   }
 }
@@ -242,14 +245,14 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
     font-size: 100%; 
     font-family: MisoBold; 
     @extend .to-caps; 
-    color: $main-blue-10;
+    color: $main-blue-30;
   }
 }
 
 #iw-slideshow
 {
   position:relative;
-  float:right;
+  float:left;
   width:570px;
   .fadein {
     position:relative; 
@@ -305,6 +308,11 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
   {
     line-height:20px;
   }
+  .new
+  {
+    font-size:11px;
+    font-style:italic;
+  }
 }
 
 #iw-temoignages 
@@ -341,25 +349,25 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
       z-index:-1;
       background:#000000;
       opacity:0.3;
-      height:55px;
+      height:62px;
       @include border-radius(4px); 
     }
     .quote
     {
-      height:55px;
+      height:63px;
       background:url(../img/ironweb/bubble_arrow.png) no-repeat 0 20px;
       margin-left:5px;
       float:left;
       width:302px;
       .resume
       {
-        padding:4px 0 0 12px;
+        padding:7px 0 0 18px;
         font-size:13px;
         margin-bottom:4px
       }
       .who
       {
-        padding:0 0 0 12px;
+        padding:0 0 0 18px;
         font-size:11px;
       }
     }
