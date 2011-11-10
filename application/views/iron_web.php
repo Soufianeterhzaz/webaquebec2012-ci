@@ -7,7 +7,7 @@
       </div>
     
       <div class="rs-content-box">
-        <p>Le Iron Web est une compétition “Web réalité” pour les passionnés du Web qui désirent participer au projet le plus court, mais le plus intense de leur vie. Confinés à l’Espace 400e Bell pendant 48 heures, les participants devront concevoir un site Web extraordinaire. Une réalisation qui épatera le jury et le public, mais surtout, qui permettra à Québec de rayonner comme joueur important du Web au Québec et même dans le monde entier!</p>
+        <p>Le Iron Web est une compétition “Web réalité” pour les passionnés du Web qui désirent participer au projet le plus court, mais le plus intense de leur vie. Confinés à l’Espace 400e Bell pendant 48 heures, les participants devront concevoir un site Web extraordinaire. <br/>Une réalisation qui épatera le jury et le public, mais surtout, qui permettra à Québec de rayonner comme joueur important du Web au Québec et même dans le monde entier!</p>
       </div>
       
       <div class="clearfix"></div>

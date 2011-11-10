@@ -176,7 +176,8 @@
 				<a href="<?=$commanditaires[$x]['url']?>" target="_blank"><img src="<?php echo base_url() ?>/assets/img/partenaires/225x100/<?=$commanditaires[$x]['slug']?>.png" alt="<?=$commanditaires[$x]['name']?>"></a>
 				<? } ?>
       </div>
-      <p>Sans la participation de ses nombreux commanditaires, le WAQ ne pourrait offrir un tel niveau de qualité à un coût si peu élevé. Merci à tous nos partenaires.</p>
+      <p>Sans la participation de ses nombreux commanditaires, le WAQ ne pourrait offrir un tel niveau de qualité à un coût si peu élevé. 
+        <br/>Merci à tous nos partenaires.</p>
       <div class="btn-more-wrapper">
         <a href="<?php echo base_url() ?>partenaires/" title="Tout sur nos fantastiques partenaires">Tout sur les partenaires</a>
       </div>
