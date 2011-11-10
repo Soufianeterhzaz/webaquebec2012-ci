@@ -7,7 +7,7 @@
       </div>
     
       <div class="rs-content-box">
-        <p>Le Iron Web est une compétition “Web réalité” pour les passionnés du Web qui désirent participer au projet le plus court mais le plus intense de leur vie. Confinés à l’Espace 400<sup>e</sup> Bell pendant 48 heures, les participants devront concevoir un site Web rien de moins qu’extraordinaire. Une réalisation qui épatera le jury et le public, mais surtout, qui permettra à Québec de rayonner comme joueur important du Web au Québec et même dans le monde entier!</p>
+        <p>Le Iron Web est une compétition “Web réalité” pour les passionnés du Web qui désirent participer au projet le plus court, mais le plus intense de leur vie. Confinés à l’Espace 400e Bell pendant 48 heures, les participants devront concevoir un site Web extraordinaire. Une réalisation qui épatera le jury et le public, mais surtout, qui permettra à Québec de rayonner comme joueur important du Web au Québec et même dans le monde entier!</p>
       </div>
       
       <div class="clearfix"></div>
@@ -22,7 +22,7 @@
           <img src="<?php echo base_url() ?>/assets/img/ironweb/slide1.jpg">
           <div class="title">Jour 1</div>
           <div class="sub-title">Découvrez votre équipe</div>
-          <div class="caption">Les caméras tournent, formation des équipes, planification du projet.</div>
+          <div class="caption">Les caméras tournent, formation des équipes, planification et exécution du projet.</div>
         </div>
         <div class="slide">
           <img src="<?php echo base_url() ?>/assets/img/ironweb/slide2.jpg">
@@ -34,7 +34,7 @@
           <img src="<?php echo base_url() ?>/assets/img/ironweb/slide3.jpg">
           <div class="title">Jour 3</div>
           <div class="sub-title">Présentez votre projet au public</div>
-          <div class="caption">Présentation des projets, vote du publique, délibérations du jury, annonce des gagnants.</div>
+          <div class="caption">Présentation des projets, vote du public, délibérations du jury, annonce des gagnants.</div>
         </div>
       </div>
     </div>      
@@ -44,10 +44,10 @@
       <h3 class="box-header">Participer c'est</h3>
       <ul class="list-custom">
         <li>Une occasion d'apprentissage hors pair</li>
-        <li>Participez à une conférence de votre choix durant le WAQ</li>
         <li>Du réseautage avec des professionnels reconnus</li>
         <li>Une visibilité accrue auprès de 500 personnes</li>
         <li>Vous voir sur internet pendant 48 heures</li>
+        <li>Assister à une conférence de votre choix <span class="new">nouveau!</span></li>
         <li>Sortir de votre zone de confort!</li>
       </ul>
     </div>
