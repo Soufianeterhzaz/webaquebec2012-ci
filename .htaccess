@@ -234,6 +234,9 @@ Redirect /iron-web-live/ /iron-web/
 
 Options +FollowSymLinks
  
+# Règle de versioning pour les fichiers CSS et JS
+RewriteRule ^assets/css/(.*)\-[0-9]+\.css$ /assets/css/$1.css [L]
+RewriteRule ^assets/js/(.*)\-[0-9]+\.js$  /assets/js/$1.js  [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ ./index.php [L]
