@@ -204,6 +204,18 @@ $(function(){
 
   if($('.ip-wrapper').length > 0){initialize_ip();}
 
+  var $slideshow = $('#iw-slideshow')
+  if($slideshow.length >0)
+  {
+    $slideshow.find('.fadein .slide:gt(0)').hide();
+    setInterval(function(){
+      $slideshow.find('.fadein .slide:eq(0)').fadeOut()
+      .next('.slide').fadeIn()
+      .end().appendTo('.fadein');
+    }, 
+    10000);
+  }
+
   var $commanditairesPrincipaux = $('#commanditaires-principaux');
 
   var nextIndex = 1,
@@ -230,4 +242,3 @@ $(function(){
   }
 
 });
-
