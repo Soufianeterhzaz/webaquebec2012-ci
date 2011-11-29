@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-.DS_Store
->>>>>>> master
+.DS_Store*
 assets/css/.sass-cache/*
 assets/css/style.min.css
 assets/css/style.css
