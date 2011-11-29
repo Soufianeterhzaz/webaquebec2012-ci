@@ -64,7 +64,7 @@
 
     <ul class="list-custom list-hori">
 			<li><a target="blank" href="http://www.espresso-jobs.com/"><img src="<?php echo base_url() ?>/assets/img/partenaires/200x89/espresso-jobs.png" alt="Espresso-Jobs"></a></li>
-			<li><a target="blank" href="http://www3.infopresse.com/jobs/"><img src="<?php echo base_url() ?>/assets/img/partenaires/200x89/infopresse-jobs.png" alt="Infopresse Jobs"></a></li>
+                        <li><a target="blank" href="http://www3.infopresse.com/jobs/"><img src="<?php echo base_url() ?>/assets/img/partenaires/200x89/infopresse-jobs_blanc.png" alt="Infopresse Jobs"></a></li>
 		</ul>
 
   </div>
