@@ -1,5 +1,14 @@
 AddDefaultCharset UTF-8
 
+# MDP {{{
+
+AuthUserFile /home/webaquebecorg/dev.webaquebec.org/.htpasswd
+AuthName "WAQ"
+AuthType Basic
+Require valid-user
+
+# }}}
+
 # Apache configuration file
 # httpd.apache.org/docs/2.2/mod/quickreference.html
 
