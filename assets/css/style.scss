@@ -160,6 +160,7 @@ nav.menu-princ{float: right;
     position:absolute;
     top:40px;
     left:0;
+<<<<<<< HEAD
     width:280px;
     opacity: 0.8;
     @include transition(opacity 0.1s ease-in-out)
@@ -170,6 +171,21 @@ nav.menu-princ{float: right;
     margin: 0 auto;
   }
   a:hover 
+=======
+    background: white;
+    width:280px;
+	
+    img 
+    {
+      text-align: center;
+      margin: 0 auto;
+      opacity: 0.8;
+      @include transition(opacity 0.1s ease-in-out)
+    }
+
+  }
+  a:hover img
+>>>>>>> master
   {
     opacity: 1;
   }

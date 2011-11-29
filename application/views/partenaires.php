@@ -64,6 +64,10 @@
       <li><a target="blank" href="http://www.qcmedia.ca/"><img src="<?php echo base_url() ?>/assets/img/partenaires/200x89/qcmedia.png" alt="QCmédias"></a></li>
       <li><a target="blank" href="http://www.kronos-web.com/"><img src="<?php echo base_url() ?>/assets/img/partenaires/200x89/kronoshori.png" alt="Kronos"></a></li>
       <li><a target="blank" href="http://www.umen.ca/"><img src="<?php echo base_url() ?>/assets/img/partenaires/200x89/umen.png" alt="UMEN"></a></li>
+<<<<<<< HEAD
+=======
+      <li><a target="blank" href="http://aptgeek.com/"><img src="<?php echo base_url() ?>/assets/img/partenaires/200x89/aptgeek.png" alt="AptGeek Technologies"></a></li>
+>>>>>>> master
     </ul>
 
   </div>
