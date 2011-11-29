@@ -105,8 +105,6 @@ h4,h5{font-family: MisoRegular;}
 
 p{line-height: 1.4;}
 
-@import "partenaires";
-
 //#########################################################
 //   Header     ###########################################
 
@@ -693,6 +691,24 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 }
 
 .rs-googlemap{width: 370px; height: 250px;}
+
+
+//#########################################
+//  Programmation    ######################
+
+.prog-wrapper{
+  ul{@extend .clearfix;
+    li{margin-right: 15px; height: 160px; width: 147px; position: relative;
+      &.last{margin: 0;}
+      span{@include opacity(0);display: block; position: absolute; width: 120px; top: 10px; left: 10px; z-index: 3; @include transition(all 0.2s ease-in-out);}
+      img{@include opacity(1);display: block; position: absolute; left: 0; top: 0; z-index: 2; @include transition(all 0.2s ease-in-out);}
+      &:hover{
+        img{@include opacity(0.4);}
+        span{@include opacity(1);}
+      }
+    }
+  }
+}
 
 //#########################################
 //   Footer     ###########################
