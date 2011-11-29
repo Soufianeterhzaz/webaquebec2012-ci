@@ -204,7 +204,7 @@ $(function(){
 
   if($('.ip-wrapper').length > 0){initialize_ip();}
 
-  var $slideshow = $('#iw-slideshow')
+  var $slideshow = $('#iw-slideshow');
   if($slideshow.length >0)
   {
     $slideshow.find('.fadein .slide:gt(0)').hide();
@@ -240,5 +240,18 @@ $(function(){
       }
     );
   }
+
+  /*$('.prog-wrapper list-custom li a').popover({
+    animate: true,
+    placement: 'right'
+  });*/
+
+  $('.prog-wrapper ul li').hover(function(){
+    $(this).find('div').show();
+    $(this).addClass('summit');
+  }, function(){
+    $(this).removeClass('summit');
+    $(this).find('div').hide();
+  });
 
 });

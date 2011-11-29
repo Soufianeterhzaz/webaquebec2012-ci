@@ -697,14 +697,16 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
 //  Programmation    ######################
 
 .prog-wrapper{
-  ul{@extend .clearfix;
-    li{margin-right: 15px; height: 160px; width: 147px; position: relative;
+  ul{ @extend .clearfix;
+    li{margin-right: 15px; height: 160px; width: 147px; position: relative; z-index: 9000;
+      div{position: absolute; top: 0; left: 0; height: 140px;  width: 289px; display: none; background: blue; padding: 10px;}
+      &.summit{z-index: 90000;}
       &.last{margin: 0;}
       span{@include opacity(0);display: block; position: absolute; width: 120px; top: 10px; left: 10px; z-index: 3; @include transition(all 0.2s ease-in-out);}
       img{@include opacity(1);display: block; position: absolute; left: 0; top: 0; z-index: 2; @include transition(all 0.2s ease-in-out);}
       &:hover{
         img{@include opacity(0.4);}
-        span{@include opacity(1);} 
+        span{@include opacity(1);}
       }
     }
   }
