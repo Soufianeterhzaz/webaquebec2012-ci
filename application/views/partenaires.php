@@ -55,7 +55,22 @@
     </ul>
 
   </div>
-  <div class="sep-shadow"></div>
+	<div class="sep-shadow"></div>
+
+
+  <div class="page-content-block clearfix">
+
+    <h3 class="box-header">Partenaires médias</h3>
+
+    <ul class="list-custom list-hori">
+			<li><a target="blank" href="http://www.espresso-jobs.com/"><img src="<?php echo base_url() ?>/assets/img/partenaires/200x89/espresso-jobs.png" alt="Espresso-Jobs"></a></li>
+                        <li><a target="blank" href="http://www3.infopresse.com/jobs/"><img src="<?php echo base_url() ?>/assets/img/partenaires/200x89/infopresse-jobs_blanc.png" alt="Infopresse Jobs"></a></li>
+		</ul>
+
+  </div>
+	<div class="sep-shadow"></div>
+
+
   <div class="page-content-block clearfix">
 
     <h3 class="box-header">Supporteurs</h3>
