@@ -704,7 +704,7 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
       img{@include opacity(1);display: block; position: absolute; left: 0; top: 0; z-index: 2; @include transition(all 0.2s ease-in-out);}
       &:hover{
         img{@include opacity(0.4);}
-        span{@include opacity(1);}
+        span{@include opacity(1);} 
       }
     }
   }
