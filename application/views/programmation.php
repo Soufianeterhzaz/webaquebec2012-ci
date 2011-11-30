@@ -6,7 +6,7 @@
 
     <ul class="list-custom list-hori">
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Peter Morville</h3><p>Ubiquitous Information Architecture: A Framework for Cross-Channel Strategy</p>">
+        <a class="first" target="blank" href="http://www.quebecinternational.ca/" title="<h3>Peter Morville</h3><p>Ubiquitous Information Architecture: A Framework for Cross-Channel Strategy</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Peter Morville">
         </a>
       </li>
@@ -21,7 +21,7 @@
     <h3 class="box-header">Conférenciers du Québec</h3>
 
     <ul class="list-custom list-hori">
-      <li>
+      <li class="first">
         <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Charles-Alain Roy</h3><p>Les fonctionnalités avancées de Google Analytics à travers des exemples concrets</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/charles-alain-roy.jpg" alt="Charles-Alain Roy">
         </a>
@@ -57,7 +57,7 @@
     </ul>
     <ul class="list-custom list-hori">
 
-      <li>
+      <li class="first">
         <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Daniel Lafrenière</h3><p>On veut pas le sawère, on veut le wère !</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/daniel-lafreniere.jpg" alt="Daniel Lafrenière">
         </a>
