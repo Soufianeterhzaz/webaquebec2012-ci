@@ -54,12 +54,6 @@
         </a>
       </li>
 
-      <li>
-        <a title="<h3>Nicolas Roberge</h3><p>Les ingrédients du Web ubiquitaire</p>">
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/nicolas-roberge.jpg" alt="Denis Boudreau">
-        </a>
-      </li>
-
     </ul>
     <ul class="list-custom list-hori">
 
@@ -68,7 +62,14 @@
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/daniel-lafreniere.jpg" alt="Daniel Lafrenière">
         </a>
       </li>
+
       <li>
+        <a title="<h3>Nicolas Roberge</h3><p>Les ingrédients du Web ubiquitaire</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/nicolas-roberge.jpg" alt="Denis Boudreau">
+        </a>
+      </li>
+		
+			<li>
         <a title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p><strong>Panel : </strong>Entreprendre le Web, à Québec, aujourd'hui.</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
         </a>
