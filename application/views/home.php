@@ -87,7 +87,7 @@
 						),
 						array(
 							'name' => 'Peter Morville',
-							'slug' => 'peter-morville',
+							'slug' => 'peter-morville_star',
 							'url' => '/programmation/'
 						),
 						array(
