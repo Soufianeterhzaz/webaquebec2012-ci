@@ -65,7 +65,13 @@
 
       <li>
         <a title="<h3>Nicolas Roberge</h3><p>Les ingrédients du Web ubiquitaire</p>">
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/nicolas-roberge.jpg" alt="Denis Boudreau">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/nicolas-roberge.jpg" alt="Nicolas Roberge">
+        </a>
+      </li>
+
+      <li>
+        <a title="<h3>Isabelle Grenier</h3>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/isabelle-grenier.jpg" alt="Isabelle Grenier">
         </a>
       </li>
 		
