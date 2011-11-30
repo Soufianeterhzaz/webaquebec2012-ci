@@ -10,7 +10,7 @@
 
     <link rel="icon" href="<?php echo base_url(); ?>favicon.ico" />
 
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style-3.css" />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" />
     <!--<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">-->
 
     <script src="<?php echo base_url(); ?>assets/js/libs/modernizr-html5-shim.js"></script>
