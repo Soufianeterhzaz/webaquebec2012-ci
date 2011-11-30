@@ -99,14 +99,14 @@
     <ul class="list-custom list-hori">
 
       <li class="first">
-				<a title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p><strong>Panel : </strong>Entreprendre le Web, à Québec, aujourd'hui.</p>">
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel-entrepreneuriat.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
+        <a title="<h3>Rémi Prévost</h3>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/remi-prevost.jpg" alt="Rémi Prévost">
         </a>
       </li>
 		
       <li>
-        <a title="<h3>Rémi Prévost</h3>">
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/remi-prevost.jpg" alt="Rémi Prévost">
+				<a title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p><strong>Panel : </strong>Entreprendre le Web, à Québec, aujourd'hui.</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel-entrepreneuriat.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
         </a>
       </li>
 		
