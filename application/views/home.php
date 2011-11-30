@@ -88,7 +88,7 @@
 						array(
 							'name' => 'Peter Morville',
 							'slug' => 'peter-morville',
-							'url' => ''
+							'url' => '/programmation/'
 						),
 						array(
 							'name' => 'Rémi Prévost',
