@@ -41,7 +41,7 @@
       <li>
         <a title="<h3>François Gaumond</h3><p>Savoir engager un véritable dialogue multicanal</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/francois-gaumond.jpg" alt="François Gaumond">
-        </a>
+        </a>et on va faire quoi si on annonce 
       </li>
       <li>
         <a title="<h3>Catherine Morissette</h3><p>Le web et les vides juridiques: difficultés d'application</p>">
@@ -71,7 +71,7 @@
 		
 			<li>
         <a title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p><strong>Panel : </strong>Entreprendre le Web, à Québec, aujourd'hui.</p>">
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel-entrepreneuriat.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
         </a>
       </li>
 
