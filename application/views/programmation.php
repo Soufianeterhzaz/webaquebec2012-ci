@@ -105,7 +105,7 @@
       </li>
 		
       <li>
-				<a title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p><strong>Panel : </strong>Entreprendre le Web, à Québec, aujourd'hui.</p>">
+				<a title="<h3>Carl-Frédéric de Celles, Sébastien Provencher, Kim Auclair,  Albert Dang Vu</h3><p><strong>Panel : </strong>Entreprendre le Web, à Québec, aujourd'hui.</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel-entrepreneuriat.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
         </a>
       </li>
