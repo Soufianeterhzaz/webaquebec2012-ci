@@ -1,4 +1,3 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/_reset\.scss}line{font-family:\000039}}
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, del, dfn, img, ins, kbd, q, samp,
@@ -17,7 +16,6 @@ time, mark, audio, video {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/_reset\.scss}line{font-family:\0000319}}
 sup, sub {
   height: 0;
   line-height: 1;
@@ -27,17 +25,14 @@ sup, sub {
   font-size: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/_reset\.scss}line{font-family:\0000320}}
 sup {
   bottom: 1ex;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/_reset\.scss}line{font-family:\0000321}}
 sub {
   top: .5ex;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/_reset\.scss}line{font-family:\0000322}}
 button {
   width: auto;
   overflow: visible;
@@ -67,67 +62,55 @@ button {
   font-style: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000322}}
 .clearfix, .p-wrapper ul, #newsletter-box h3, .prog-wrapper ul {
   *zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/_helpers\.scss}line{font-family:\00003277}}
 .clearfix:after, .p-wrapper ul:after, #newsletter-box h3:after, .prog-wrapper ul:after {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/_helpers\.scss}line{font-family:\00003277}}
 .clearfix:before, .p-wrapper ul:before, #newsletter-box h3:before, .prog-wrapper ul:before, .clearfix:after, .p-wrapper ul:after, #newsletter-box h3:after, .prog-wrapper ul:after {
   content: "";
   display: table;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000324}}
 .to-caps, .btn-vox-pop, nav.top-right ul li, nav.menu-princ ul li a, h3.box-header, .btn-more-wrapper a, #btn-candidature .call-to-action, #btn-candidature .date-limite, #vox-pop .social-bar span, #vox-pop .social-bar a, #newsletter-box h3, #newsletter-box form button.btn, #numbers-viewport li h2 {
   text-transform: uppercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000325}}
 .to-italic {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000326}}
 .t-indent, #important-numbers .btn-nav span {
   text-indent: -90000px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000327}}
 .list-custom {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000328}}
 .list-hori {
   margin: 0 0 1.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000329}}
 .list-hori li {
   float: left;
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000330}}
 .ow {
   width: 100%;
   min-width: 960px;
   background: transparent url("../img/back-hollow-top-right.png") no-repeat center top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000335}}
 .wrapper {
   width: 960px;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000336}}
 .light-white-gradient, #btn-candidature, #newsletter-box form button.btn {
   background-color: white;
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#e9e9e9));
@@ -140,36 +123,29 @@ button {
   zoom: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000338}}
 .whitetext-shadow-up, .event-details .dates, h3.box-header {
   text-shadow: 0 -1px #005778;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000339}}
 .whitetext-shadow-down, #newsletter-box h3 {
   text-shadow: 0 1px #003d54;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000341}}
 .left-side {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000342}}
 .left-side.main {
   width: 350px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000343}}
 .right-side {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000344}}
 .right-side.main {
   width: 600px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000345}}
 .right-side.main h1 {
   font-size: 250%;
   padding-bottom: 5px;
@@ -178,52 +154,42 @@ button {
   font-family: MisoLight;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000347}}
 .ros-wrapper .right-side.main, .ip-wrapper .right-side.main {
   width: 580px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000350}}
 .right-side .left-side, .right-side .right-side {
   width: 290px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000355}}
 .ros-wrapper .right-side .left-side, .ros-wrapper .right-side .right-side {
   width: 270px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000361}}
 .ip-wrapper .right-side .left-side {
   width: 170px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000362}}
 .ip-wrapper .right-side .right-side {
   width: 370px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000364}}
 .ip-wrapper a:link:hover {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000368}}
 .p-wrapper ul {
   padding: 20px;
   background: rgba(255, 255, 255, 0.25);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000369}}
 .p-wrapper ul li {
   display: block;
   margin-right: 0px;
   width: 225px;
   height: 100px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000370}}
 .p-wrapper ul li.last {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000375}}
 .sep-shadow {
   height: 14px;
   width: 960px;
@@ -231,7 +197,6 @@ button {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000377}}
 .white-box {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -243,7 +208,6 @@ button {
   padding: 5px;
   background: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000378}}
 .white-box h3 {
   color: #3a3a3a;
   margin-bottom: 10px;
@@ -251,28 +215,23 @@ button {
   font-weight: bold;
   font-family: Arial, sans-serif!important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000379}}
 .white-box p {
   color: #4cabcf;
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000382}}
 .white-box + .white-box {
   margin-top: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000383}}
 .white-box + .ls-content-box {
   margin-top: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000384}}
 .ls-content-box + .ls-content-box {
   margin-top: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000386}}
 .btn {
   position: relative;
   color: #000;
@@ -283,7 +242,6 @@ button {
   -webkit-border-bottom-left-radius: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000387}}
 .btn-white {
   /*@extend .light-white-gradient;*/
   background: #fff;
@@ -292,7 +250,6 @@ button {
   box-shadow: 0 0 3px black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000388}}
 .btn-vox-pop {
   display: block;
   background: rgba(0, 0, 0, 0.6) url(../img/btn-vox-pop.png) no-repeat 10% 50%;
@@ -314,65 +271,54 @@ button {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000389}}
 .btn-vox-pop strong {
   display: block;
   font-family: MisoRegular;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000391}}
 .btn-vox-pop:hover {
   background-color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000393}}
 .logo-partenaires {
   display: block;
   position: absolute;
   text-indent: -90000px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\0000399}}
 body {
   background: #0087ba url(../img/back-main.png);
   font-family: Arial, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003101}}
 a {
   color: white;
   text-decoration: none;
   outline: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003103}}
 h2, h3 {
   font-family: MisoLight;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003104}}
 h4, h5 {
   font-family: MisoRegular;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003106}}
 p {
   line-height: 1.4;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003111}}
 header {
   height: 180px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003112}}
 header .wrapper {
   position: relative;
   padding: 50px 0 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003114}}
 .logo-princ {
   width: 254px;
   height: 87px;
@@ -380,29 +326,24 @@ header .wrapper {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003115}}
 .logo-princ span {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003116}}
 .logo-accronym {
   height: 97px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003117}}
 .logo-full-text {
   font-size: 100%;
   font-family: MisoLight;
   letter-spacing: 0.1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003119}}
 .event-details {
   float: left;
   margin-left: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003120}}
 .event-details .lieu {
   display: block;
   color: #3a3a3a;
@@ -410,17 +351,14 @@ header .wrapper {
   font-size: 120%;
   text-shadow: 1px 1px 0 #4cabcf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003121}}
 .event-details .lieu * {
   color: #3a3a3a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003122}}
 .event-details .dates {
   display: block;
   font-family: MisoRegular;
   font-size: 160%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003123}}
 .event-details .btn-inscription {
   display: block;
   height: 34px;
@@ -428,7 +366,6 @@ header .wrapper {
   position: relative;
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003124}}
 .event-details .btn-inscription img {
   position: absolute;
   top: 0;
@@ -437,40 +374,32 @@ header .wrapper {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003125}}
 .event-details .btn-inscription img.btn-insc-normal {
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003126}}
 .event-details .btn-inscription img.btn-insc-normal:hover {
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003132}}
 nav.top-right {
   position: absolute;
   top: 10px;
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003133}}
 nav.top-right ul li {
   font-family: MisoLight;
   margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003134}}
 nav.top-right ul li a:link:hover {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003137}}
 nav.menu-princ {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003138}}
 nav.menu-princ ul li {
   margin-bottom: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003139}}
 nav.menu-princ ul li a {
   background: #006d96;
   -webkit-border-radius: 5px;
@@ -488,24 +417,20 @@ nav.menu-princ ul li a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003140}}
 nav.menu-princ ul li a:hover {
   background: #0078a6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003141}}
 nav.menu-princ ul li a.disabled, nav.menu-princ ul li a.disabled:hover {
   opacity: 0.5;
   background: #058cbf;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003149}}
 #commanditaires-principaux {
   position: relative;
   padding: 1em 0;
   height: 154px;
   min-height: 154px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003155}}
 #commanditaires-principaux a {
   text-align: center;
   display: block;
@@ -515,7 +440,6 @@ nav.menu-princ ul li a.disabled, nav.menu-princ ul li a.disabled:hover {
   background: white;
   width: 280px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003165}}
 #commanditaires-principaux a img {
   text-align: center;
   margin: 0 auto;
@@ -524,35 +448,29 @@ nav.menu-princ ul li a.disabled, nav.menu-princ ul li a.disabled:hover {
   -webkit-transition: opacity 0.1s ease-in-out;
   -moz-transition: opacity 0.1s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003174}}
 #commanditaires-principaux a:hover img {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003182}}
 #page-content {
   background: url(../img/back-zebre.png) no-repeat top center;
   padding: 25px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003183}}
 .page-content-block {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003185}}
 h3.box-header {
   font-size: 180%;
   margin-bottom: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003186}}
 .ip-wrapper .right-side.main .box-header {
   padding-bottom: 5px;
   border-bottom: 1px dotted #4cabcf;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003189}}
 .btn-more-wrapper a {
   display: block;
   text-align: right;
@@ -567,34 +485,28 @@ h3.box-header {
   -webkit-transition: opacity 0.1s ease-in-out;
   -moz-transition: opacity 0.1s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003193}}
 .btn-more-wrapper a:hover {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003200}}
 #iw-header {
   position: relative;
   margin-right: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003204}}
 #iw-header .rs-content-box {
   margin-bottom: 20px;
   width: 330px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003210}}
 #logo-iw {
   position: relative;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003214}}
 #logo-iw h1 {
   height: 102px;
   width: 361px;
   background: url(../img/logo-ironweb.png) no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003219}}
 #logo-iw span {
   position: absolute;
   bottom: 5px;
@@ -603,7 +515,6 @@ h3.box-header {
   font-size: 90%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003229}}
 #btn-candidature {
   display: block;
   padding: 10px;
@@ -623,36 +534,30 @@ h3.box-header {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003241}}
 #btn-candidature span {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003244}}
 #btn-candidature .call-to-action {
   font-family: MisoRegular;
   font-size: 150%;
   color: #005778;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003250}}
 #btn-candidature .date-limite {
   font-size: 100%;
   font-family: MisoBold;
   color: #003d54;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003259}}
 #iw-slideshow {
   position: relative;
   float: left;
   width: 570px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003263}}
 #iw-slideshow .fadein {
   position: relative;
   width: 570px;
   height: 332px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003268}}
 #iw-slideshow .fadein .slide {
   border: 5px solid #f5f5f5;
   -webkit-border-radius: 3px;
@@ -667,24 +572,20 @@ h3.box-header {
   height: 342px;
   width: 570px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003278}}
 #iw-slideshow .fadein .slide img,
 #iw-slideshow .fadein .slide div {
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003282}}
 #iw-slideshow .fadein .slide .title {
   top: 0;
   font-size: 30px;
   padding: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003288}}
 #iw-slideshow .fadein .slide .sub-title {
   top: 34px;
   padding: 12px;
   font-size: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003294}}
 #iw-slideshow .fadein .slide .caption {
   bottom: 0;
   left: 0;
@@ -693,27 +594,22 @@ h3.box-header {
   padding: 8px 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003309}}
 #iw-avantages {
   width: 370px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003314}}
 #iw-avantages li {
   line-height: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003318}}
 #iw-avantages .new {
   font-size: 11px;
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003325}}
 #iw-temoignages {
   width: 590px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003329}}
 #iw-temoignages ul {
   position: relative;
   list-style-type: none;
@@ -721,7 +617,6 @@ h3.box-header {
   width: 376px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003337}}
 #iw-temoignages li {
   background: none;
   padding-left: 0;
@@ -729,13 +624,11 @@ h3.box-header {
   position: relative;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003344}}
 #iw-temoignages li img {
   float: left;
   display: block;
   width: 55px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003350}}
 #iw-temoignages li .bubble {
   position: absolute;
   left: 67px;
@@ -752,7 +645,6 @@ h3.box-header {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003362}}
 #iw-temoignages li .quote {
   height: 63px;
   background: url(../img/ironweb/bubble_arrow.png) no-repeat 0 20px;
@@ -760,24 +652,20 @@ h3.box-header {
   float: left;
   width: 302px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003369}}
 #iw-temoignages li .quote .resume {
   padding: 7px 0 0 18px;
   font-size: 13px;
   margin-bottom: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003375}}
 #iw-temoignages li .quote .who {
   padding: 0 0 0 18px;
   font-size: 11px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003382}}
 #iw-temoignages .video {
   float: left;
   width: 214px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003387}}
 #iw-temoignages .video img {
   width: 214px;
   -webkit-border-radius: 4px;
@@ -787,7 +675,6 @@ h3.box-header {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003392}}
 #iw-temoignages .video .btn-vox-pop {
   font-size: 100%;
   padiding: 6px 6px 6px 50px;
@@ -795,7 +682,6 @@ h3.box-header {
   left: 28px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003401}}
 #btn-candidature:hover {
   top: 17px;
   -moz-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
@@ -803,17 +689,14 @@ h3.box-header {
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003409}}
 #iw-inscriptions .input {
   margin-bottom: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003414}}
 #iw-inscriptions .input label {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003420}}
 #iw-inscriptions .text input,
 #iw-inscriptions .submit input {
   -moz-border-radius: 2px;
@@ -835,13 +718,11 @@ h3.box-header {
   width: 240px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003433}}
 #iw-inscriptions h2,
 #iw-inscriptions h3 {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003438}}
 #iw-inscriptions textarea {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -865,42 +746,34 @@ h3.box-header {
   font-size: 13px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003455}}
 #iw-inscriptions label .sub {
   display: block;
   font-size: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003461}}
 #iw-inscriptions label .required {
   color: #292929;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003466}}
 #iw-inscriptions .col {
   position: relative;
   overflow: hidden;
   float: left;
   margin-right: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003472}}
 #iw-inscriptions .col.last {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003478}}
 #iw-inscriptions .input {
   margin-bottom: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003484}}
 #iw-inscriptions .input.short input {
   width: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003492}}
 #iw-inscriptions .input.medium input {
   width: 150px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003501}}
 #iw-inscriptions .input.text input, #iw-inscriptions .input.textarea input {
   color: #838383;
   font-size: 13px;
@@ -908,11 +781,9 @@ h3.box-header {
   line-height: 26px;
   text-indent: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003510}}
 #iw-inscriptions .input.text.last-before-submit, #iw-inscriptions .input.textarea.last-before-submit {
   margin-bottom: 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003518}}
 #iw-inscriptions .input.submit input {
   -moz-box-shadow: inset 0 0 0 1px #fff, 0 0 0 5px #f3f3f3, 0 0 0 6px #eeeeee;
   -webkit-box-shadow: inset 0 0 0 1px #fff, 0 0 0 5px #f3f3f3, 0 0 0 6px #eeeeee;
@@ -927,7 +798,6 @@ h3.box-header {
   font-size: 16px;
   border: 1px solid #dadada;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003529}}
 #iw-inscriptions .input.submit input {
   color: #838383;
   font-weight: bold;
@@ -935,33 +805,27 @@ h3.box-header {
   line-height: 30px;
   text-shadow: 0 1px 0 #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003539}}
 #iw-inscriptions .input.checkbox {
   padding: 10px 0;
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003544}}
 #iw-inscriptions .input.checkbox input {
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003549}}
 #iw-inscriptions .input.checkbox label {
   display: inline-block;
   padding-left: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003558}}
 #iw-inscriptions .input.error.text input {
   background: #F3EEC7;
   border: 2px solid #ff0000;
   margin: 5px -1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003566}}
 #iw-inscriptions .input .error-message {
   background: red;
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003572}}
 #iw-inscriptions .error {
   color: #292929;
   font-size: 12px;
@@ -970,35 +834,28 @@ h3.box-header {
   margin-bottom: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003584}}
 #vox-pop .thumb {
   position: relative;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003585}}
 #vox-pop .thumb .btn-vox-pop {
   bottom: 45px;
   left: 90px;
   padding: 10px 20px 10px 60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003587}}
 #vox-pop .content {
   padding: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003588}}
 #vox-pop .content p {
   font-size: 90%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003590}}
 #vox-pop .social-bar {
   font-family: MisoRegular;
   padding-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003591}}
 #vox-pop .social-bar li {
   margin-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003592}}
 #vox-pop .social-bar span {
   display: block;
   font-size: 120%;
@@ -1006,7 +863,6 @@ h3.box-header {
   border-right: 2px dotted #e1e1e1;
   padding-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003593}}
 #vox-pop .social-bar a {
   background: #006d96 url(../img/sprite.png) no-repeat;
   padding: 3px 7px 3px 20px;
@@ -1018,43 +874,35 @@ h3.box-header {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003594}}
 #vox-pop .social-bar a:hover {
   background-color: #0078a6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003595}}
 #vox-pop .social-bar .btn-facebook {
   background-position: 5px 4px;
   padding-left: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003596}}
 #vox-pop .social-bar .btn-twitter {
   background-position: 5px -14px;
   padding-left: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003601}}
 #news-box ul {
   padding-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003602}}
 #news-box ul li {
   padding-bottom: 15px;
   margin-bottom: 15px;
   border-bottom: 1px dotted #4cabcf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003603}}
 #news-box ul h4 {
   font-size: 90%;
   font-family: Arial, sans-serif;
   font-weight: bold;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003604}}
 #news-box ul p {
   font-size: 80%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003605}}
 #news-box ul p a.read-more {
   font-size: 80%;
   padding: 0 10px;
@@ -1072,16 +920,13 @@ h3.box-header {
   -moz-transition: all 0.2s ease-in-out;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003606}}
 #news-box ul p a.read-more:hover {
   background: #006d96;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003608}}
 #news-box ul a {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003615}}
 #newsletter-box {
   padding: 5px;
   -webkit-border-radius: 5px;
@@ -1093,12 +938,10 @@ h3.box-header {
   background: rgba(0, 109, 150, 0.5);
   width: 320px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003616}}
 #newsletter-box h3 {
   font-size: 110%;
   margin-bottom: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003617}}
 #newsletter-box h3 span {
   float: right;
   display: block;
@@ -1106,7 +949,6 @@ h3.box-header {
   width: 16px;
   background: url(../img/sprite.png) no-repeat 0 -33px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003619}}
 #newsletter-box form {
   padding: 7px;
   background: rgba(0, 87, 120, 0.5);
@@ -1117,7 +959,6 @@ h3.box-header {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003620}}
 #newsletter-box form input {
   background: none;
   border: none;
@@ -1125,7 +966,6 @@ h3.box-header {
   padding-top: 3px;
   font-size: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003621}}
 #newsletter-box form button.btn {
   border: 0;
   float: right;
@@ -1141,18 +981,15 @@ h3.box-header {
   color: #005778;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003629}}
 #important-numbers {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003630}}
 #important-numbers .btn-nav {
   display: block;
   height: 180px;
   width: 17px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003631}}
 #important-numbers .btn-nav span {
   display: block;
   height: 24px;
@@ -1161,46 +998,38 @@ h3.box-header {
   top: 60px;
   left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003633}}
 #important-numbers #btn-precedent {
   top: 0;
   left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003634}}
 #important-numbers #btn-precedent span {
   background: url(../img/sprite.png) no-repeat 2px -136px;
   transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003636}}
 #important-numbers #btn-precedent:hover span {
   background-position: 0 -136px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003637}}
 #important-numbers #btn-suivant {
   top: 0;
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003638}}
 #important-numbers #btn-suivant span {
   background: url(../img/sprite.png) no-repeat 3px -101px;
   transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003640}}
 #important-numbers #btn-suivant:hover span {
   background-position: 5px -101px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003643}}
 #numbers-viewport {
   position: relative;
   margin: 0 0 30px 25px;
   width: 561px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003644}}
 #numbers-viewport li {
   display: block;
   width: 186px;
@@ -1208,7 +1037,6 @@ h3.box-header {
   padding-top: 130px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003645}}
 #numbers-viewport li span {
   display: block;
   font-family: MisoBold;
@@ -1226,12 +1054,10 @@ h3.box-header {
   top: 0;
   left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003647}}
 #numbers-viewport li h2 {
   font-size: 140%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003650}}
 #numbers-viewport li:hover span {
   font-size: 750%;
   text-align: center;
@@ -1241,7 +1067,6 @@ h3.box-header {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003655}}
 #conferenciers ul {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1256,7 +1081,6 @@ h3.box-header {
   float: right;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003656}}
 #conferenciers ul li {
   display: block;
   height: 160px;
@@ -1264,7 +1088,6 @@ h3.box-header {
   position: relative;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003657}}
 #conferenciers ul li span {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
   filter: alpha(opacity=0);
@@ -1280,7 +1103,6 @@ h3.box-header {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003658}}
 #conferenciers ul li img {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
   filter: alpha(opacity=100);
@@ -1295,14 +1117,12 @@ h3.box-header {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003662}}
 #conferenciers ul li:hover img {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
   filter: alpha(opacity=40);
   -moz-opacity: 0.4;
   opacity: 0.4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003663}}
 #conferenciers ul li:hover span {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
   filter: alpha(opacity=100);
@@ -1310,49 +1130,39 @@ h3.box-header {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003668}}
 .rs-content-box {
   margin-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003669}}
 .rs-content-box p, .rs-content-box ul li, .rs-content-box address {
   font-size: 80%;
   margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003670}}
 .rs-content-box ul li {
   padding-left: 15px;
   background: url(../img/bullet-arrow-blue.png) no-repeat 3px 5px;
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003671}}
 .rs-content-box ul li a {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003672}}
 .rs-content-box ul li a:hover {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003674}}
 .rs-content-box p + p, .rs-content-box p + ul, .rs-content-box ul + p {
   margin-top: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003675}}
 .rs-content-box p + h3 {
   margin-top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003676}}
 .rs-content-box h4 {
   font-family: Arial, sans-serif;
   font-weight: bold;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003677}}
 .rs-content-box ul + h4, .rs-content-box p + h4 {
   margin-top: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003679}}
 .white-thumb {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1369,136 +1179,255 @@ h3.box-header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003680}}
 .white-thumb .btn-vox-pop {
   top: 65px;
   left: 65px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003683}}
 .iron-web .white-thumb {
   background: url("../img/ph-ironweb-homecolumn.jpg") no-repeat;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003684}}
 .iron-web h3 {
   background: url(../img/sprite.png) no-repeat 105px -59px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003687}}
 .full-width {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003690}}
 .liste-reglements li {
   background: url(../img/bullet-arrow-blue.png) no-repeat 0 5px;
   padding-left: 15px;
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003693}}
 .rs-googlemap {
   width: 370px;
   height: 250px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003701}}
 .prog-wrapper ul li {
   margin-right: 15px;
   height: 160px;
   width: 147px;
-  position: relative;
-  z-index: 9000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003702}}
-.prog-wrapper ul li div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 140px;
-  width: 289px;
-  display: none;
-  background: blue;
-  padding: 10px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003703}}
-.prog-wrapper ul li.summit {
-  z-index: 90000;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003704}}
 .prog-wrapper ul li.last {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003705}}
+.prog-wrapper ul li a {
+  display: block;
+}
 .prog-wrapper ul li span {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  filter: alpha(opacity=0);
-  -moz-opacity: 0;
-  opacity: 0;
   display: block;
-  position: absolute;
   width: 120px;
-  top: 10px;
-  left: 10px;
-  z-index: 3;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003706}}
 .prog-wrapper ul li img {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  filter: alpha(opacity=100);
-  -moz-opacity: 1;
-  opacity: 1;
+  display: block;
+}
+
+.modal .popover, .modal .twipsy {
+  z-index: 12000;
+}
+
+.twipsy {
   display: block;
   position: absolute;
-  left: 0;
+  visibility: visible;
+  padding: 2px;
+  font-size: 11px;
+  z-index: 1000;
+}
+
+.twipsy.above .twipsy-arrow {
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #005778;
+}
+
+.twipsy.left .twipsy-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #005778;
+}
+
+.twipsy.below .twipsy-arrow {
   top: 0;
-  z-index: 2;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #005778;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003708}}
-.prog-wrapper ul li:hover img {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  filter: alpha(opacity=40);
-  -moz-opacity: 0.4;
-  opacity: 0.4;
+
+.twipsy.right .twipsy-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #005778;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003709}}
-.prog-wrapper ul li:hover span {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  filter: alpha(opacity=100);
-  -moz-opacity: 1;
+
+.twipsy-inner {
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  max-width: 200px;
+  text-decoration: none;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  border: 4px solid #005778;
+}
+.twipsy-inner h3 {
+  font-size: 200%;
+  margin-bottom: 5px;
+  color: #005778 !important;
+  font-family: MisoRegular;
+}
+.twipsy-inner p {
+  font-size: 110%;
+  color: #000 !important;
+}
+
+.twipsy-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 5px;
+  display: none;
+  width: 500px !important;
+}
+
+.popover.above .arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+}
+
+.popover.right .arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #000;
+}
+
+.popover.below .arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000;
+}
+
+.popover.left .arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000;
+}
+
+.popover .arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.popover .inner {
+  background: #005778;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 3px;
+  overflow: hidden;
+  width: 280px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.popover .title {
+  background-color: #f5f5f5;
+  padding: 9px 15px;
+  line-height: 1;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  border-bottom: 1px solid #eee;
+  color: #000;
+  font-size: 160%;
+}
+
+.popover .content {
+  background-color: #005778;
+  padding: 14px;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #000;
+}
+
+.popover .content p, .popover .content ul, .popover .content ol {
+  margin-bottom: 0;
+}
+
+.fade {
+  -webkit-transition: opacity 0.15s linear;
+  -moz-transition: opacity 0.15s linear;
+  -ms-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+  opacity: 0;
+}
+
+.fade.in {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003718}}
 .footer-box {
   float: left;
   padding-left: 25px;
   border-left: 1px dotted #2c94ba;
   margin-left: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003720}}
 .footer-box ul li {
   padding-left: 10px;
   background: url(../img/sprite.png) no-repeat 0 -250px;
   margin-bottom: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003721}}
 .footer-box ul a {
   font-size: 70%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003725}}
 footer {
   padding: 20px 0;
   background: rgba(0, 0, 0, 0.15) url(../img/back-footer.png) no-repeat top center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003726}}
 footer .google-map {
   float: left;
   width: 206px;
@@ -1511,12 +1440,10 @@ footer .google-map {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003727}}
 footer #googlemaps-footer {
   width: 206px;
   height: 118px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003728}}
 footer h2 {
   float: left;
   height: 26px;
@@ -1524,27 +1451,22 @@ footer h2 {
   margin-left: 20px;
   background: url(../img/sprite.png) no-repeat 0 -213px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003729}}
 footer #main-address {
   float: left;
   margin-left: 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003730}}
 footer address {
   font-size: 70%;
   line-height: 1.3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003731}}
 footer address strong {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003733}}
 footer a:link:hover {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jpveilleux\/www\/webaquebec\/assets\/css\/style\.scss}line{font-family:\00003734}}
 footer a.disabled, footer a.disabled:hover {
   opacity: 0.7;
 }

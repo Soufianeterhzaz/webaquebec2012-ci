@@ -241,17 +241,19 @@ $(function(){
     );
   }
 
-  /*$('.prog-wrapper list-custom li a').popover({
+  $('.prog-wrapper .list-custom li a').twipsy({
     animate: true,
-    placement: 'right'
-  });*/
+    placement: 'above',
+    html: true,
+    offset: 5
+  });
 
-  $('.prog-wrapper ul li').hover(function(){
+  /*$('.prog-wrapper ul li').hover(function(){
     $(this).find('div').show();
     $(this).addClass('summit');
   }, function(){
     $(this).removeClass('summit');
     $(this).find('div').hide();
-  });
+  });*/
 
 });

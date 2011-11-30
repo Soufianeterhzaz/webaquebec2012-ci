@@ -131,9 +131,9 @@
 
 </body>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/twipsy.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/popover.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/popover.js"></script>
 <script>window.jQuery || document.write("<script src='<?php echo base_url(); ?>assets/js/libs/jquery-1.6.4.min.js'><\/script>")</script>
 <script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=fr_ca"></script>
 <script src="<?php echo base_url(); ?>assets/js/global.js"></script>

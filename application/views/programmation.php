@@ -6,9 +6,8 @@
 
     <ul class="list-custom list-hori">
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Peter Morville</h3><p>Ubiquitous Information Architecture: A Framework for Cross-Channel Strategy</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Peter Morville">
         </a>
       </li>
     </ul>
@@ -23,41 +22,35 @@
 
     <ul class="list-custom list-hori">
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/" rel="popover">
-          <span>Charles-Alain Roy</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/isabelle-grenier.jpg" alt="Québec International">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Charles-Alain Roy</h3><p>Les fonctionnalités avancées de Google Analytics à travers des exemples concrets</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/charles-alain-roy.jpg" alt="Charles-Alain Roy">
         </a>
       </li>
 
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Denis Boudreau</h3><p>SEO, Web mobile et accessibilité : Trinité du développement Web inclusif</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/denis-boudreault.jpg" alt="Denis Boudreau">
         </a>
       </li>
 
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Stéphane Hamel</h3><p>Web analytics : êtes-vous sur la bonne voie ?</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/stephane-hamel.jpg" alt="Stéphane Hamel">
         </a>
       </li>
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>François Gaumond</h3><p>Savoir engager un véritable dialogue multicanal</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/francois-gaumond.jpg" alt="François Gaumond">
         </a>
       </li>
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Catherine Morissette</h3><p>Le web et les vides juridiques: difficultés d'application</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/catherine-morissette.jpg" alt="Catherine Morissette">
         </a>
       </li>
       <li class="last">
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Rémy Savard</h3><p>Nouveaux APIs (HTML5/CSS3/JS)</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/remy-savard.jpg" alt="Rémy Savard">
         </a>
       </li>
 
@@ -65,33 +58,13 @@
     <ul class="list-custom list-hori">
 
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Daniel Lafrenière</h3><p>On veut pas le sawère, on veut le wère !</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/daniel-lafreniere.jpg" alt="Daniel Lafrenière">
         </a>
       </li>
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
-        </a>
-      </li>
-      <li>
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
-        </a>
-      </li>
-      <li>
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
-        </a>
-      </li>
-      <li class="last">
-        <a target="blank" href="http://www.quebecinternational.ca/">
-          <span>Peter Morville</span>
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Québec International">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p>Entreprendre le Web, à Québec, aujourd'hui.</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
         </a>
       </li>
 
