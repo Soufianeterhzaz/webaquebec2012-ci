@@ -2,11 +2,11 @@
 
   <div class="page-content-block clearfix">
 
-    <h3 class="box-header">Commanditaires internationaux</h3>
+    <h3 class="box-header">Conférenciers internationaux</h3>
 
     <ul class="list-custom list-hori">
-      <li>
-        <a class="first" target="blank" href="http://www.quebecinternational.ca/" title="<h3>Peter Morville</h3><p>Ubiquitous Information Architecture: A Framework for Cross-Channel Strategy</p>">
+      <li class="first">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Peter Morville</h3><p>Ubiquitous Information Architecture: A Framework for Cross-Channel Strategy</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/peter-morville.jpg" alt="Peter Morville">
         </a>
       </li>
@@ -63,7 +63,7 @@
         </a>
       </li>
       <li>
-        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p>Entreprendre le Web, à Québec, aujourd'hui.</p>">
+        <a target="blank" href="http://www.quebecinternational.ca/" title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p><strong>Panel : </strong>Entreprendre le Web, à Québec, aujourd'hui.</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
         </a>
       </li>
