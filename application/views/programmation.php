@@ -41,7 +41,7 @@
       <li>
         <a title="<h3>François Gaumond</h3><p>Savoir engager un véritable dialogue multicanal</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/francois-gaumond.jpg" alt="François Gaumond">
-        </a>et on va faire quoi si on annonce 
+        </a>
       </li>
       <li>
         <a title="<h3>Catherine Morissette</h3><p>Le web et les vides juridiques: difficultés d'application</p>">
@@ -72,6 +72,12 @@
       <li>
         <a title="<h3>Isabelle Grenier</h3>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/isabelle-grenier.jpg" alt="Isabelle Grenier">
+        </a>
+      </li>
+		
+      <li>
+        <a title="<h3>Jacques Warren</h3><p>Les médias sociaux sont si peu sociaux</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/jacques-warren.jpg" alt="Jacques Warren">
         </a>
       </li>
 		
