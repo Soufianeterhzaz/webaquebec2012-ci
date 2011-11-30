@@ -81,7 +81,7 @@
         </a>
       </li>
 		
-      <li>
+      <li class="last">
         <a title="<h3>Mario Asselin</h3><p>OpenGouv / OpenData : le mode résistance n'a plus sa place!</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/mario-asselin.jpg" alt="Mario Asselin">
         </a>
