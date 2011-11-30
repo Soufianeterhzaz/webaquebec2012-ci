@@ -54,6 +54,12 @@
         </a>
       </li>
 
+      <li>
+        <a title="<h3>Nicolas Roberge</h3><p>Les ingrédients du Web ubiquitaire</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/nicolas-roberge.jpg" alt="Denis Boudreau">
+        </a>
+      </li>
+
     </ul>
     <ul class="list-custom list-hori">
 
