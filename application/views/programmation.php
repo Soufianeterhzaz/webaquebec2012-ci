@@ -87,7 +87,7 @@
         </a>
       </li>
 
-      <li class="first">
+      <li class="last">
         <a title="<h3>Michaël Carpentier</h3><p>Être accessible c'est bien, être compris c'est mieux : écrire pour le Web</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/michael-carpentier.jpg" alt="Michaël Carpentier">
         </a>
