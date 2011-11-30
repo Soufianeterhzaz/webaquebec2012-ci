@@ -87,13 +87,30 @@
         </a>
       </li>
 
-			<li class="last">
-        <a title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p><strong>Panel : </strong>Entreprendre le Web, à Québec, aujourd'hui.</p>">
-          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel-entrepreneuriat.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
+      <li class="first">
+        <a title="<h3>Michaël Carpentier</h3><p>Être accessible c'est bien, être compris c'est mieux : écrire pour le Web</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/michael-carpentier.jpg" alt="Michaël Carpentier">
         </a>
       </li>
 
+     
+
     </ul>
+    <ul class="list-custom list-hori">
+
+      <li class="first">
+				<a title="<h3>Kim Auclair, Sébastien Provencher, Carl-Frédéric de Celles, Albert Dang Vu</h3><p><strong>Panel : </strong>Entreprendre le Web, à Québec, aujourd'hui.</p>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/panel-entrepreneuriat.jpg" alt="Entreprendre le Web, à Québec, aujourd'hui.">
+        </a>
+      </li>
+		
+      <li>
+        <a title="<h3>Rémi Prévost</h3>">
+          <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/remi-prevost.jpg" alt="Rémi Prévost">
+        </a>
+      </li>
+		
+		</ul>
 
   </div>
 </div>
