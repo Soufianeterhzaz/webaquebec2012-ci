@@ -41,6 +41,7 @@
 $route['default_controller'] = "home";
 $route['informations-pratiques'] = "infos_pratiques";
 $route['iron-web-inscriptions'] = "iron_web_inscriptions";
+$route['programmation'] = "programmation";
 $route['iron-web'] = "iron_web";
 $route['a-propos'] = "a_propos";
 $route['404_override'] = '';

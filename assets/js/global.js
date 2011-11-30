@@ -204,7 +204,7 @@ $(function(){
 
   if($('.ip-wrapper').length > 0){initialize_ip();}
 
-  var $slideshow = $('#iw-slideshow')
+  var $slideshow = $('#iw-slideshow');
   if($slideshow.length >0)
   {
     $slideshow.find('.fadein .slide:gt(0)').hide();
@@ -240,5 +240,39 @@ $(function(){
       }
     );
   }
+
+  $('.prog-wrapper .list-custom li').each(function(){
+    if($(this).hasClass('first')){
+      $(this).find('a').twipsy({
+          animate: true,
+          placement: 'right',
+          html: true,
+          offset: 5
+        });
+    }else if($(this).hasClass('last')){
+      $(this).find('a').twipsy({
+          animate: true,
+          placement: 'left',
+          html: true,
+          offset: 5
+        });
+    }else{
+      $(this).find('a').twipsy({
+        animate: true,
+        placement: 'above',
+        html: true,
+        offset: 5
+      });
+    }
+
+  });
+
+  /*$('.prog-wrapper ul li').hover(function(){
+    $(this).find('div').show();
+    $(this).addClass('summit');
+  }, function(){
+    $(this).removeClass('summit');
+    $(this).find('div').hide();
+  });*/
 
 });

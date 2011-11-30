@@ -113,7 +113,7 @@
 				<? } ?>
 			</ul>
       <div class="btn-more-wrapper">
-				<?/*<a href="<?php echo base_url() ?>/programmation" style="clear: both;">Consulter toute la programmation</a>*/?>
+				<a href="<?php echo base_url() ?>/programmation/" style="clear: both;">Consulter la programmation</a>
       </div>
     </div>
 
