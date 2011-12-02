@@ -44,7 +44,7 @@
         </a>
       </li>
       <li>
-        <a title="<h3>Catherine Morissette</h3><p>Le web et les vides juridiques: difficultés d'application</p>">
+        <a title="<h3>Catherine Morissette</h3><p>Le web et les vides juridiques: difficultés d’application</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/catherine-morissette.jpg" alt="Catherine Morissette">
         </a>
       </li>
@@ -70,7 +70,7 @@
       </li>
 
       <li>
-        <a title="<h3>Isabelle Grenier</h3>">
+        <a title="<h3>Isabelle Grenier</h3><p>Le Festival d’été de Québec et les médias sociaux : informer et divertir des milliers d’amis</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/isabelle-grenier.jpg" alt="Isabelle Grenier">
         </a>
       </li>
@@ -82,13 +82,13 @@
       </li>
 		
       <li>
-        <a title="<h3>Mario Asselin</h3><p>OpenGouv / OpenData : le mode résistance n'a plus sa place!</p>">
+        <a title="<h3>Mario Asselin</h3><p>OpenGouv / OpenData : le mode résistance n’a plus sa place!</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/mario-asselin.jpg" alt="Mario Asselin">
         </a>
       </li>
 
       <li class="last">
-        <a title="<h3>Michaël Carpentier</h3><p>Être accessible c'est bien, être compris c'est mieux : écrire pour le Web</p>">
+        <a title="<h3>Michaël Carpentier</h3><p>Être accessible c’est bien, être compris c'est mieux : écrire pour le Web</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/michael-carpentier.jpg" alt="Michaël Carpentier">
         </a>
       </li>
@@ -99,7 +99,7 @@
     <ul class="list-custom list-hori">
 
       <li class="first">
-        <a title="<h3>Rémi Prévost</h3>">
+        <a title="<h3>Rémi Prévost</h3><p>Introduction à Ruby</p>">
           <img src="<?php echo base_url() ?>assets/img/conferenciers/147x160/remi-prevost.jpg" alt="Rémi Prévost">
         </a>
       </li>
