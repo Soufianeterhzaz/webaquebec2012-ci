@@ -10,10 +10,9 @@
 
     <link rel="icon" href="<?php echo base_url(); ?>favicon.ico" />
 
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style-2.css" />
-
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style-5.css" />
     <script src="<?php echo base_url(); ?>assets/js/libs/modernizr-html5-shim.js"></script>
-  
+
 </head>
 
 <body>
@@ -55,7 +54,7 @@
 
           <nav class="menu-princ">
             <ul class="list-custom">
-              <li><a class="disabled"<?/* href="<?php echo base_url() ?>programmation/"*/?>>Horaire et programmation</a></li>
+              <li><a href="<?php echo base_url() ?>programmation/">Programmation</a></li>
               <li><a href="<?php echo base_url() ?>iron-web/">Compétition Iron Web</a></li>
               <li><a href="<?php echo base_url() ?>informations-pratiques/">Informations pratiques</a></li>
             </ul>
@@ -116,7 +115,7 @@
         </div>
         <div class="footer-box">
           <ul class="list-custom">
-						<li><a class="disabled"<?/* href="<?php echo base_url() ?>programmation/"*/?>>Horaire et programmation</a></li>
+						<li><a href="<?php echo base_url() ?>programmation/">Programmation</a></li>
             <li><a href="<?php echo base_url() ?>iron-web/">Compétition Iron Web</a></li>
             <li><a href="<?php echo base_url() ?>informations-pratiques/">Information pratique</a></li>
             <li><a href="<?php echo base_url() ?>inscription/">Inscription</a></li>
@@ -129,10 +128,12 @@
 
 </body>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/twipsy.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/popover.js"></script>
 <script>window.jQuery || document.write("<script src='<?php echo base_url(); ?>assets/js/libs/jquery-1.6.4.min.js'><\/script>")</script>
 <script src="http://maps.google.com/maps/api/js?sensor=false&amp;language=fr_ca"></script>
-<script src="<?php echo base_url(); ?>assets/js/global.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/global-2.js"></script>
 <script>var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-20043510-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script>
 
 </html>

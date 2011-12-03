@@ -83,22 +83,22 @@
 						array(
 							'name' => 'Isabelle Grenier',
 							'slug' => 'isabelle-grenier',
-							'url' => 'http://www.marianik.com/2011/08/17/portrait-de-gestionnaire-de-communaute-isabelle-grenier/'
+							'url' => '/programmation/'
 						),
 						array(
 							'name' => 'Peter Morville',
-							'slug' => 'peter-morville',
-							'url' => 'http://semanticstudios.com/about/'
+							'slug' => 'peter-morville_star',
+							'url' => '/programmation/'
 						),
 						array(
 							'name' => 'Rémi Prévost',
 							'slug' => 'remi-prevost',
-							'url' => 'http://exomel.com/'
+							'url' => '/programmation/'
 						),
 						array(
 							'name' => 'Denis Boudreault',
 							'slug' => 'denis-boudreault',
-							'url' => 'http://accessibiliteweb.com/spip.php?page=detail_membre&id_article=30&id_auteur=5'
+							'url' => '/programmation/'
 						)					
 					);
 					shuffle($speakers);
@@ -113,7 +113,7 @@
 				<? } ?>
 			</ul>
       <div class="btn-more-wrapper">
-				<?/*<a href="<?php echo base_url() ?>/programmation" style="clear: both;">Consulter toute la programmation</a>*/?>
+				<a href="<?php echo base_url() ?>/programmation/" style="clear: both;">Consulter la programmation</a>
       </div>
     </div>
 
