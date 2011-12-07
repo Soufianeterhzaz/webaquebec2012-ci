@@ -231,27 +231,21 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
   padding: 10px; 
   margin-bottom:20px;
   @include border-radius(5px); 
-  @extend .light-white-gradient; 
   @include box-shadow(0 3px 3px rgba(#000, 0.2)); 
+  background:#006D96;
   width: 270px; 
-  text-align: center; 
-  @include transition(all 0.2s ease-in-out);
+  text-align: center;
   
   span
   {
     display: block;
   }
-  .call-to-action{
-    font-family: MisoRegular; 
-    font-size: 150%; 
-    @extend .to-caps; 
-    color: $main-blue-20;
-  }
   .date-limite{
-    font-size: 100%; 
-    font-family: MisoBold; 
+    font-size: 120%; 
+    font-family: Miso; 
     @extend .to-caps; 
-    color: $main-blue-30;
+    color: #ffffff;
+    padding-top:8px;
   }
 }
 
@@ -709,7 +703,7 @@ h3.box-header{font-size: 180%; @extend .to-caps; @extend .whitetext-shadow-up; m
   }
 }
 
-@import "prog";
+//@import "prog";
 
 //#########################################
 //   Footer     ###########################

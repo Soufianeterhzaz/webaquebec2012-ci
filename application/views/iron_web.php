@@ -12,8 +12,7 @@
       
       <div class="clearfix"></div>
       <a id="btn-candidature" href="<?php echo base_url() ?>iron-web-inscriptions/">
-        <span class="call-to-action">Soumettre votre candidature</span>
-        <span class="date-limite">Date limite: 1 décembre</span>
+        <span class="date-limite">Inscriptions terminés - Merci!</span>
       </a>
     </div>      
     <div id="iw-slideshow">
