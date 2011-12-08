@@ -35,10 +35,10 @@
   padding-top:8px;
 }
       </style>
-      <a id="btn-candidature" href="#">
+      <div id="btn-candidature">
 
         <span class="date-limite">Inscriptions terminés - Merci!</span>
-      </a>
+      </div>
     </div>      
     <div id="iw-slideshow">
       <div class="fadein">
