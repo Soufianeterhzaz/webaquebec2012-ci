@@ -11,10 +11,34 @@
       </div>
       
       <div class="clearfix"></div>
-      <a id="btn-candidature" href="<?php echo base_url() ?>iron-web-inscriptions/">
-        <span class="call-to-action">Soumettre votre candidature</span>
-        <span class="date-limite">Date limite: 1 décembre</span>
-      </a>
+      <style type="text/css">
+#btn-candidature
+{
+  display: block; 
+  padding: 10px; 
+  margin-bottom:20px;
+  @include border-radius(5px); 
+  @include box-shadow(0 3px 3px rgba(#000, 0.2)); 
+  background:#006D96;
+  width: 270px; 
+  text-align: center;
+}
+#btn-candidature span
+{
+  display: block;
+}
+#btn-candidature  .date-limite{
+  font-size: 120%; 
+  font-family: Miso; 
+  @extend .to-caps; 
+  color: #ffffff;
+  padding-top:8px;
+}
+      </style>
+      <div id="btn-candidature">
+
+        <span class="date-limite">Inscriptions terminés - Merci!</span>
+      </div>
     </div>      
     <div id="iw-slideshow">
       <div class="fadein">
