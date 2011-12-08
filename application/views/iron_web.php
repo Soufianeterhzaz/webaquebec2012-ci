@@ -35,7 +35,7 @@
   padding-top:8px;
 }
       </style>
-      <a id="btn-candidature" href="<?php echo base_url() ?>iron-web-inscriptions/">
+      <a id="btn-candidature" href="#">
 
         <span class="date-limite">Inscriptions terminés - Merci!</span>
       </a>
