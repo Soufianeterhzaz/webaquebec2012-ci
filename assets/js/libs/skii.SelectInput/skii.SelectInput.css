@@ -1,0 +1,62 @@
+/**
+ * @file        select_input.css
+ * @version     0.1
+ * @author      Charles Demers - @charles_demers
+ */
+
+.skii-selectinput {
+	display:inline-block;
+	position:relative;
+	float:none;
+	width:150px;
+	height:25px;
+	padding:0;
+	margin:0;
+	border:1px solid #dfdfdf;
+	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	
+	background:-webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#e8e8e8));
+	background:-moz-linear-gradient(top,  #fcfcfc,  #e8e8e8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#e8e8e8');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#fcfcfc', EndColorStr='#e8e8e8')";
+}
+.skii-selectinput,
+.skii-selectinput * {
+	cursor:pointer;
+}
+.skii-selectinput.disabled,
+.skii-selectinput.disabled * {
+	cursor:default;
+}
+.skii-selectinput-selected {
+	position:absolute;
+	top:0;
+	left:8px;
+	right:28px;
+	width:auto;
+	height:auto;
+	padding:0;
+	margin:0;
+	padding-right:4px;
+	border-right:1px solid #dfdfdf;
+	overflow:hidden;
+	
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	line-height:26px;
+	color:#666;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.skii-selectinput-arrow {
+	position:absolute;
+	top:8px;
+	right:8px;
+	width:10px; 
+	height:10px; 
+	
+	background:url("images/arrow-down.png") no-repeat;
+}
